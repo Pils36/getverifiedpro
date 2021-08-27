@@ -848,7 +848,7 @@ else{
                            
                            <hr>
                            <p class="text-center">
-                               <a href="https://www.pro-filr.com/paypal">
+                               <a href="/paypal">
                                    <img class="animated infinite bounce delay-5s" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" style="width: inherit" alt="paypal" />
                                </a>
                            </p>

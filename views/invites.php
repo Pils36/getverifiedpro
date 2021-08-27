@@ -25,7 +25,7 @@ $pass = 'getverifiedpro2021!';
 
 try {
     //connect DB
-    $dbh = new PDO('mysql:host=localhost;dbname=profilr_beta', $user, $pass);
+    $dbh = new PDO('mysql:host=localhost;dbname=exbcca_profilr_beta', $user, $pass);
 
 
 } catch (PDOException $e) {
