@@ -3,9 +3,13 @@
 
 define('DB_HOSTNAME', 'localhost');
 
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'profilr_beta');
+define('DB_USERNAME', 'exbcca_profilr_beta');
+define('DB_PASSWORD', 'getverifiedpro2021!');
+define('DB_NAME', 'exbcca_profilr_beta');
+
+// define('DB_USERNAME', 'root');
+// define('DB_PASSWORD', '');
+// define('DB_NAME', 'profilr_beta');
 
 // define('DB_USERNAME', 'jscgloba_profilr_user');
 // define('DB_PASSWORD', 'portFOLIO_2015');

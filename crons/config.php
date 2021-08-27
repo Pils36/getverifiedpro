@@ -5,10 +5,10 @@ error_reporting(E_ALL);
 $o = array(
 	"hostname" => "localhost",
 //	"dbname"=>"profilr_data",
-	"dbname" => "profilr_beta",
-	"password"=>"portFOLIO_2015",
+	"dbname" => "exbcca_profilr_beta",
+	"password"=>"getverifiedpro2021!",
 //	"password" => "",
-	"username"=>"root",
+	"username"=>"exbcca_profilr_beta",
 //	"username" => "root",
 	"port" => "3306"
 );

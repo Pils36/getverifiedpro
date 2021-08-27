@@ -18,16 +18,13 @@ if (!validateLogin()) {
 
 <?php
 
-// error_reporting(1);
 
-$user = 'root';
-$pass = '';
-// $user = 'jscgloba_profilr_user';
-// $pass = 'portFOLIO_2015';
+$user = 'exbcca_profilr_beta';
+$pass = 'getverifiedpro2021';
 
 try {
     //connect DB
-    $dbh = new PDO('mysql:host=localhost;dbname=profilr_beta', $user, $pass);
+    $dbh = new PDO('mysql:host=localhost;dbname=exbcca_profilr_beta', $user, $pass);
 
 } catch (PDOException $e) {
 echo 0;

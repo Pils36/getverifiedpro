@@ -20,8 +20,8 @@ if (!empty($_POST['fromNav']) && $_POST['fromNav'] == "1") {
 
 // error_reporting(1);
 
-$user = 'root';
-$pass = '';
+$user = 'exbcca_profilr_beta';
+$pass = 'getverifiedpro2021!';
 
 try {
     //connect DB
