@@ -8,7 +8,7 @@ header('Cache-Control: post-check=0, pre-check=0', FALSE);
 
 header('Pragma: no-cache');
 
-require_once('../vendor/firebase/php-jwt/src/JWT.php');
+require_once('./vendor/firebase/php-jwt/src/JWT.php');
 
 use Firebase\JWT\JWT;
 
