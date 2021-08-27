@@ -1,0 +1,303 @@
+<script type='text/javascript'>
+    var myProfileData = false;
+</script>
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119921903-1"></script>
+
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+
+
+    gtag('config', 'UA-119921903-1');
+</script>
+
+<script type="text/javascript" src="assets/lib/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/search.min.js"></script>
+<script src="assets/lib/typer.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+
+
+
+<script>
+    $(document).ready(function () {
+
+
+        setTimeout(function () {
+            $(".verif").click();
+        }, 7000);
+
+
+        // Settings Modal
+
+        $('#setting').draggable();
+
+        $('#passkey').click(function (el) {
+            $('#changeForm').toggle("slow", "swing");
+        });
+
+        $('#profile').click(function () {
+            window.location.replace('https://www.pro-filr.com/profile');
+        });
+
+        $('#plan').click(function () {
+            $('#subSection').toggle("slow", "swing");
+        });
+
+        $("#sub").click(function (el) {
+            if ($("#key1").val() == "") {
+                el.preventDefault();
+                swal("Oops", "Please enter new password", "error");
+            } else if ($("#key1").val().length < 8) {
+                el.preventDefault();
+                swal("Oops", "Password should be 8 or more characters", "info");
+            } else if ($("#key1").val() != $("#key2").val()) {
+                el.preventDefault();
+                swal("Oops", "Confirm password does not match", "warning");
+            } else {
+                swal('Good Job!', 'Password Changed', 'success');
+
+            }
+        });
+
+        $("#savePlan").click(function () {
+            // el.preventDefault();
+            if ($("#plans").val() == "Annual Plan") {
+                swal('Thank You!', 'Your request has been submitted', 'success');
+            } else if ($("#plans").val() == "Monthly Plan") {
+                swal('Thank You!', 'Your request has been submitted', 'success');
+            } else if ($("#plans").val() == "NULL") {
+                swal('Thank You!', 'Your request has been submitted', 'success');
+            }
+        });
+
+        // $("#notplan").click(function(){
+        //     swal('Oops', 'You can only change plan when you Upgrade account', 'warning');
+        // });
+
+
+
+
+        // Typer
+        $("#example").typer({
+            typeSpeed: 90,
+            strings: [
+
+                "Visit Pro-EXECUTES",
+
+                "Professional leads generation and Collaboration center",
+
+                "",
+
+                "https://pro-executes.com"
+
+            ]
+
+        });
+
+
+        $("#forgot_password").click(function (el) {
+
+            if ($("#pass_email").val() == "") {
+                el.preventDefault();
+                swal("Oops", "Please enter your email", "error");
+            } else {
+                swal("Hello", "A reset link has been sent to your mail", "success");
+            }
+        });
+
+
+        $("#new_password").click(function (el) {
+            if ($("#reset_pass").val() == "") {
+                el.preventDefault();
+                swal("Oops", "Please enter new password", "error");
+            } else if ($("#reset_pass").val().length < 8) {
+                el.preventDefault();
+                swal("Oops", "Password should be 8 or more characters", "info");
+            } else if ($("#reset_pass").val() != $("#confirm_pass").val()) {
+                el.preventDefault();
+                swal("Oops", "Confirm password does not match", "warning");
+            } else {
+                swal("Hello", "Welcome Back to Pro-filr", "success");
+
+            }
+        });
+
+
+        // Sticky Nav
+
+
+        // grab the initial top offset of the navigation 
+        var stickyNavTop = $('.nav').offset().top;
+
+        // our function that decides weather the navigation bar should have "fixed" css position or not.
+        var stickyNav = function () {
+            var scrollTop = $(window).scrollTop(); // our current vertical position from the top
+
+            // if we've scrolled more than the navigation, change its position to fixed to stick to top,
+            // otherwise change it back to relative
+            if (scrollTop > stickyNavTop) {
+                $('.nav').addClass('sticky');
+            } else {
+                $('.nav').removeClass('sticky');
+            }
+        };
+
+        stickyNav();
+        // and run it again every time you scroll
+        $(window).scroll(function () {
+            stickyNav();
+        });
+
+
+
+
+
+
+
+
+
+        $('#myTable1').DataTable();
+        $('#myTable2').DataTable();
+        $('#myTable3').DataTable();
+
+        var excel = "/invites?c=excel";
+        var gmail = "/invites?c=gmail";
+
+        setTimeout(function () {
+            $(".secondary div > button").click();
+        }, 5000);
+
+
+        $("#btn_excel").click(function () {
+
+            window.location.replace(excel);
+            servicePage();
+
+        });
+
+        $("#btn_gmail").click(function () {
+
+            window.location.replace(gmail);
+            servicePage();
+
+        });
+
+
+
+        // Service Redirect
+        function servicePage() {
+            var url_string = window.location.href;
+            var url = new URL(url_string);
+            var c = url.searchParams.get("c");
+
+        }
+
+        $(".valMem, .viewMem").click(function () {
+            iziToast.error({
+                icon: 'fa fa-info-circle',
+                message: '<p style="text-align:justify; padding: 10px;">This feature is only available to paid users. You can view this page when you upgrade account.<br/><br/> UPGRADE enables you to know the Basis of validation, Nature of validation and Comments made. You are just a click away.</p>',
+                maxWidth: '500px',
+                messageLineHeight: '20px',
+                timeout: 30000,
+                position: 'center', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter
+                progressBarColor: '#429c45',
+                buttons: [
+                    ['<button style="background-color: #429c45; color: #fff;">Upgrade</button>',
+                        function (instance, toast) {
+                            window.location.replace("https://www.pro-filr.com/upgrade");
+                        },
+                        true
+                    ], // true to focus
+                    ['<button style="background-color: red; color: #fff">Close</button>',
+                        function (instance, toast) {
+                            instance.hide({
+                                transitionOut: 'fadeOutUp',
+                                onClosing: function (instance, toast, closedBy) {
+                                    // console.info('closedBy: ' + closedBy); // The return will be: 'closedBy: buttonName'
+                                }
+                            }, toast, 'buttonName');
+                        }
+                    ]
+                ],
+                onOpening: function (instance, toast) {
+                    // console.info('callback abriu!');
+                },
+                onClosing: function (instance, toast, closedBy) {
+                    // console.info('closedBy: ' + closedBy); // tells if it was closed by 'drag' or 'button'
+                }
+            });
+
+        });
+
+        $("#validations, #views").click(function () {
+            iziToast.error({
+                icon: 'fa fa-info-circle',
+                message: '<p style="text-align:justify; padding: 10px;">This feature is only available to paid users. You can view this page when you upgrade account.<br/><br/> UPGRADE enables you to know the Basis of validation, Nature of validation, and Comments made. You are just a click away.</p>',
+                maxWidth: '500px',
+                messageLineHeight: '20px',
+                timeout: 30000,
+                position: 'center', // bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter
+                progressBarColor: '#429c45',
+                buttons: [
+                    ['<button style="background-color: #429c45; color: #fff;">Upgrade</button>',
+                        function (instance, toast) {
+                            window.location.replace("https://www.pro-filr.com/upgrade");
+                        },
+                        true
+                    ], // true to focus
+                    ['<button style="background-color: red; color: #fff">Close</button>',
+                        function (instance, toast) {
+                            instance.hide({
+                                transitionOut: 'fadeOutUp',
+                                onClosing: function (instance, toast, closedBy) {
+                                    // console.info('closedBy: ' + closedBy); // The return will be: 'closedBy: buttonName'
+                                }
+                            }, toast, 'buttonName');
+                        }
+                    ]
+                ],
+                onOpening: function (instance, toast) {
+                    // console.info('callback abriu!');
+                },
+                onClosing: function (instance, toast, closedBy) {
+                    // console.info('closedBy: ' + closedBy); // tells if it was closed by 'drag' or 'button'
+                }
+            });
+
+        });
+
+    });
+</script>
+
+
+
+<script type="text/javascript" src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="assets/lib/jquery.blockUI.js"></script>
+
+<script type="text/javascript" src="assets/lib/semantic/semantic.js"></script>
+
+<script type="text/javascript" src="assets/lib/jquery.redirect.js"></script>
+
+<script type="text/javascript" src='assets/lib/nprogress/nprogress.js'></script>
+
+<script type="text/javascript" src="assets/js/proxy.js"></script>
+
+<script type="text/javascript" src="assets/lib/datepicker/datepicker.js"></script>

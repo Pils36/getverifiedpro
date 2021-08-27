@@ -1,0 +1,15 @@
+<div id="image-preview">
+    <label for="image-upload" id="image-label">Choose File</label>
+    <input type="file" name="image" id="image-upload"/>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $.uploadPreview({
+            input_field: "#image-upload",
+            preview_box: "#image-preview",
+            label_field: "#image-label"
+        });
+    });
+</script>

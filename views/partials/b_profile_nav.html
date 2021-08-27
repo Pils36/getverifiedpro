@@ -1,0 +1,57 @@
+
+<script type="text/javascript">
+var str = '<?php $sth = $dbh->prepare("SELECT * FROM `tbl_message` WHERE sent_to ='".$_SESSION['login_id']."'"); $sth->execute(); $result = $sth->fetchAll(); $count = count($result); $msg = $count; ?>';
+
+var res = '<?php echo $msg?>';
+
+</script>
+
+<header class="header nav">
+    <div class="container">
+        <a href="home"><img src="assets/images/prologo.png" class="logo pull-left"></a>
+        <!--<section class="about section">-->
+        <!--<h2 class="heading">Post Opportunity</h2>-->
+        <!--</section>&lt;!&ndash;//section&ndash;&gt;-->
+        <div class="nav-container">
+            <div id="search-form" class="col-md-5" style="margin: 15px 70px;">
+                <input type="search" class="form-control search_input"
+                       placeholder="search opportunnities, professionals, specialisations in cities, countries and much more..."
+                       aria-label="Username"
+                       aria-describedby="basic-addon1" id="search_input">
+
+            </div>
+        </div>
+
+        <div class="nav-container pull-right">
+            <ul class="navbar profile_menu">
+                
+                <!--<li><a class="profile_link" data-view="posts">-->
+                <!--    <img src="https://img.icons8.com/ios-glyphs/40/000000/new-post.png" style="width: 20px; height: 20px; cursor: pointer"> <span class="label label-danger" style="position: relative; left: -5px; top: -5px; border-radius: 100% !important"><script>document.write(res);</script></span>-->
+                <!--</a></li>-->
+                <li><a class="profile_link" data-view="home">Home</a></li>
+                <li><a class="profile_link" data-view="invites">Connect</a></li>
+                <li><a class="profile_link" data-view="posts">Engage</a></li>
+                <li><a class="profile_link" data-view="projects">Projects</a></li>
+                <!--<li class="btn btn-success"><a data-view="">Upgrade</a></li>-->
+                <!--<li><a><i class="fa fa-bell-o"></i><span class="badge badge-danger">0</span></a></li>-->
+                <!--<li><a><i class="fa fa-envelope-o"></i><span class="badge badge-success">5</span></a></li>-->
+                <li class="dropdown-toggle" id="options" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <img src="assets/images/man.png" class="img-circle profile_picture"><a href="#"><i
+                        class="fa fa-sort-desc"></i></a>
+                </li>
+                <ul class="dropdown-menu" aria-labelledby="options">
+                    <li><a class="dropdown-item profile_link" data-view="profile"><i class="building outline icon"></i>View
+                        Profile</a></li>
+                    <li><a class="profile_link" data-view="blog"><i class="external share icon"></i>Blog</a></li>
+                    <li><a class="dropdown-item" id="settings" href="#" data-toggle="modal" data-target="#setting"><i class="edit icon"></i>Settings</a>
+                    </li>
+                    <li><a class="dropdown-item" data-view="logout"><i class="sign out icon"></i>Logout</a></li>
+
+                </ul>
+                <li class="btn btn-success hidden" id="upgrade_btn"><a href="upgrade" class="upgrade_btn" style="font-size: 1em; font-weight: bold;">UPGRADE</a></li>
+
+            </ul>
+        </div><!--//profile-->
+    </div><!--//container-->
+</header><!--//header-->

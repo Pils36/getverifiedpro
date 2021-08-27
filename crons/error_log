@@ -1,0 +1,10 @@
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/crons/testcron.php on line 50
+[28-Apr-2019 18:27:01 UTC] PHP Notice:  Undefined property: PHPMailer::$smtpClose in /home/profilr/public_html/crons/testcron.php on line 59

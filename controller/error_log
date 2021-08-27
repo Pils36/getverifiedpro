@@ -1,0 +1,1466 @@
+[09-May-2018 13:58:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the SUPER privilege(s) for this operation' in /home/profilr/public_html/profilr_beta/app/Core/Database.php:26
+Stack trace:
+#0 /home/profilr/public_html/profilr_beta/app/Core/Database.php(26): PDO->query('SET GLOBAL sql_...')
+#1 /home/profilr/public_html/profilr_beta/app/Core/Database.php(40): Database->__construct()
+#2 /home/profilr/public_html/profilr_beta/app/helpers/login.php(8): Database::getInstance()
+#3 /home/profilr/public_html/profilr_beta/public_html/controller/app.php(70): getLogin()
+#4 {main}
+  thrown in /home/profilr/public_html/profilr_beta/app/Core/Database.php on line 26
+[09-May-2018 13:58:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the SUPER privilege(s) for this operation' in /home/profilr/public_html/profilr_beta/app/Core/Database.php:26
+Stack trace:
+#0 /home/profilr/public_html/profilr_beta/app/Core/Database.php(26): PDO->query('SET GLOBAL sql_...')
+#1 /home/profilr/public_html/profilr_beta/app/Core/Database.php(40): Database->__construct()
+#2 /home/profilr/public_html/profilr_beta/app/helpers/login.php(8): Database::getInstance()
+#3 /home/profilr/public_html/profilr_beta/public_html/controller/app.php(70): getLogin()
+#4 {main}
+  thrown in /home/profilr/public_html/profilr_beta/app/Core/Database.php on line 26
+[09-May-2018 13:58:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the SUPER privilege(s) for this operation' in /home/profilr/public_html/profilr_beta/app/Core/Database.php:26
+Stack trace:
+#0 /home/profilr/public_html/profilr_beta/app/Core/Database.php(26): PDO->query('SET GLOBAL sql_...')
+#1 /home/profilr/public_html/profilr_beta/app/Core/Database.php(40): Database->__construct()
+#2 /home/profilr/public_html/profilr_beta/app/helpers/login.php(8): Database::getInstance()
+#3 /home/profilr/public_html/profilr_beta/public_html/controller/app.php(70): getLogin()
+#4 {main}
+  thrown in /home/profilr/public_html/profilr_beta/app/Core/Database.php on line 26
+[09-May-2018 13:58:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the SUPER privilege(s) for this operation' in /home/profilr/public_html/profilr_beta/app/Core/Database.php:26
+Stack trace:
+#0 /home/profilr/public_html/profilr_beta/app/Core/Database.php(26): PDO->query('SET GLOBAL sql_...')
+#1 /home/profilr/public_html/profilr_beta/app/Core/Database.php(40): Database->__construct()
+#2 /home/profilr/public_html/profilr_beta/app/helpers/login.php(8): Database::getInstance()
+#3 /home/profilr/public_html/profilr_beta/public_html/controller/app.php(70): getLogin()
+#4 {main}
+  thrown in /home/profilr/public_html/profilr_beta/app/Core/Database.php on line 26
+[09-May-2018 14:00:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the SUPER privilege(s) for this operation' in /home/profilr/public_html/profilr_beta/app/Core/Database.php:26
+Stack trace:
+#0 /home/profilr/public_html/profilr_beta/app/Core/Database.php(26): PDO->query('SET GLOBAL sql_...')
+#1 /home/profilr/public_html/profilr_beta/app/Core/Database.php(40): Database->__construct()
+#2 /home/profilr/public_html/profilr_beta/app/helpers/login.php(8): Database::getInstance()
+#3 /home/profilr/public_html/profilr_beta/public_html/controller/app.php(70): getLogin()
+#4 {main}
+  thrown in /home/profilr/public_html/profilr_beta/app/Core/Database.php on line 26
+[09-May-2018 14:00:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the SUPER privilege(s) for this operation' in /home/profilr/public_html/profilr_beta/app/Core/Database.php:26
+Stack trace:
+#0 /home/profilr/public_html/profilr_beta/app/Core/Database.php(26): PDO->query('SET GLOBAL sql_...')
+#1 /home/profilr/public_html/profilr_beta/app/Core/Database.php(40): Database->__construct()
+#2 /home/profilr/public_html/profilr_beta/app/helpers/login.php(8): Database::getInstance()
+#3 /home/profilr/public_html/profilr_beta/public_html/controller/app.php(70): getLogin()
+#4 {main}
+  thrown in /home/profilr/public_html/profilr_beta/app/Core/Database.php on line 26
+[09-May-2018 14:01:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1227 Access denied; you need (at least one of) the SUPER privilege(s) for this operation' in /home/profilr/public_html/profilr_beta/app/Core/Database.php:26
+Stack trace:
+#0 /home/profilr/public_html/profilr_beta/app/Core/Database.php(26): PDO->query('SET GLOBAL sql_...')
+#1 /home/profilr/public_html/profilr_beta/app/Core/Database.php(40): Database->__construct()
+#2 /home/profilr/public_html/profilr_beta/app/helpers/login.php(8): Database::getInstance()
+#3 /home/profilr/public_html/profilr_beta/public_html/controller/app.php(70): getLogin()
+#4 {main}
+  thrown in /home/profilr/public_html/profilr_beta/app/Core/Database.php on line 26
+[25-Jul-2018 16:27:52 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[25-Jul-2018 16:29:05 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[26-Jul-2018 22:37:17 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[27-Jul-2018 16:36:24 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[31-Jul-2018 18:50:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:74
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(74): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(71): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 74
+[20-Sep-2018 19:54:26 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[21-Sep-2018 02:24:24 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[21-Sep-2018 03:40:05 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[21-Sep-2018 04:42:34 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[21-Sep-2018 04:43:47 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[21-Sep-2018 04:44:20 UTC] PHP Fatal error:  Call to undefined function getGmailConnections() in /home/profilr/public_html/controller/app.php on line 93
+[21-Oct-2018 09:46:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(71): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[21-Oct-2018 09:48:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(71): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[21-Oct-2018 10:21:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(71): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[23-Oct-2018 01:59:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(71): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[24-Oct-2018 12:32:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(71): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[01-Nov-2018 12:48:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[08-Nov-2018 16:24:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[09-Nov-2018 12:15:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[12-Nov-2018 09:29:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[12-Nov-2018 12:48:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[13-Nov-2018 11:47:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[13-Nov-2018 11:50:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[13-Nov-2018 11:51:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[14-Nov-2018 08:02:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[20-Nov-2018 16:04:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[20-Nov-2018 16:06:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[20-Nov-2018 18:13:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[21-Nov-2018 14:05:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[30-Nov-2018 06:04:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[28-Dec-2018 15:52:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[09-Jan-2019 09:08:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[12-Jan-2019 04:20:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[23-Jan-2019 13:08:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[23-Jan-2019 13:08:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[23-Jan-2019 13:09:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(72): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:43:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:46:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:47:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:47:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:47:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:47:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:47:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:49:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 11:58:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:00:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:02:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:10:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:11:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:31:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:32:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:36:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:37:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:38:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:40:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[06-Feb-2019 12:40:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 23' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(74): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[07-Feb-2019 14:18:31 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 70
+[07-Feb-2019 14:18:36 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 70
+[07-Feb-2019 14:19:37 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 70
+[07-Feb-2019 21:21:35 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 70
+[07-Feb-2019 21:24:53 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 70
+[07-Feb-2019 22:13:43 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 21
+[07-Feb-2019 22:14:25 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 21
+[07-Feb-2019 22:14:54 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 21
+[07-Feb-2019 22:17:20 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 20
+[07-Feb-2019 22:18:01 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 20
+[07-Feb-2019 22:20:37 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 20
+[07-Feb-2019 22:24:14 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/search.php on line 20
+[08-Feb-2019 10:19:43 UTC] PHP Fatal error:  Call to undefined function alert() in /home/profilr/app/helpers/projects.php on line 83
+[08-Feb-2019 10:21:21 UTC] PHP Fatal error:  Call to undefined function alert() in /home/profilr/app/helpers/projects.php on line 83
+[08-Feb-2019 10:27:12 UTC] PHP Fatal error:  Call to undefined function alert() in /home/profilr/app/helpers/projects.php on line 83
+[08-Feb-2019 10:27:13 UTC] PHP Fatal error:  Call to undefined function alert() in /home/profilr/app/helpers/projects.php on line 83
+[08-Feb-2019 10:28:57 UTC] PHP Fatal error:  Call to undefined function alert() in /home/profilr/app/helpers/projects.php on line 83
+[08-Feb-2019 10:48:53 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/projects.php on line 83
+[02-Mar-2019 07:46:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[02-Mar-2019 07:46:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[02-Mar-2019 07:46:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[02-Mar-2019 07:47:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[02-Mar-2019 07:47:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[03-Mar-2019 18:03:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:93
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(93): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(23): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 93
+[05-Mar-2019 14:32:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:22:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:22:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:22:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:23:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:29:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 24
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:30:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 23
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:36:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 45
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:44:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 45
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 11:44:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 45
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 13:12:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 45
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[08-Mar-2019 13:17:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 45
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[10-Mar-2019 20:02:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 45
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[12-Mar-2019 15:58:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[12-Mar-2019 16:04:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[12-Mar-2019 16:05:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[12-Mar-2019 16:05:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:94
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(94): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 94
+[14-Mar-2019 10:34:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/profilr/app/helpers/profile.php:361
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(361): PDO->query('select distinct...')
+#1 /home/profilr/public_html/controller/app.php(75): fetchEmployer()
+#2 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 361
+[14-Mar-2019 10:35:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/profilr/app/helpers/profile.php:361
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(361): PDO->query('select distinct...')
+#1 /home/profilr/public_html/controller/app.php(75): fetchEmployer()
+#2 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 361
+[14-Mar-2019 17:09:16 UTC] PHP Fatal error:  Undefined class constant 'FETCH__ASSOC' in /home/profilr/app/helpers/profile.php on line 69
+[14-Mar-2019 17:09:17 UTC] PHP Fatal error:  Undefined class constant 'FETCH__ASSOC' in /home/profilr/app/helpers/profile.php on line 69
+[14-Mar-2019 17:09:44 UTC] PHP Fatal error:  Undefined class constant 'FETCH__ASSOC' in /home/profilr/app/helpers/profile.php on line 69
+[14-Mar-2019 17:09:44 UTC] PHP Fatal error:  Undefined class constant 'FETCH__ASSOC' in /home/profilr/app/helpers/profile.php on line 69
+[15-Mar-2019 17:50:00 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 82 bytes) in /home/profilr/app/helpers/admin.php on line 447
+[15-Mar-2019 17:56:08 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/profilr/app/helpers/admin.php on line 449
+[15-Mar-2019 17:57:39 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 72 bytes) in /home/profilr/app/helpers/admin.php on line 449
+[15-Mar-2019 18:01:22 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 82 bytes) in /home/profilr/app/helpers/admin.php on line 449
+[18-Mar-2019 19:18:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[19-Mar-2019 07:24:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[19-Mar-2019 07:59:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[19-Mar-2019 08:01:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[19-Mar-2019 08:05:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(75): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[27-Mar-2019 13:09:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined variable: id in /home/profilr/public_html/views/viewproject.php on ' at line 1' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('Notice:  Undefi...')
+#2 /home/profilr/public_html/controller/app.php(79): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[27-Mar-2019 13:10:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined variable: id in /home/profilr/public_html/views/viewproject.php on ' at line 1' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('Notice:  Undefi...')
+#2 /home/profilr/public_html/controller/app.php(79): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[29-Mar-2019 11:31:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/upgrade.php on line 25' at line 2' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(79): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[05-Apr-2019 16:15:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('undefined')
+#2 /home/profilr/public_html/controller/app.php(79): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[05-Apr-2019 16:15:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('undefined')
+#2 /home/profilr/public_html/controller/app.php(79): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[05-Apr-2019 16:15:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause'' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('undefined')
+#2 /home/profilr/public_html/controller/app.php(79): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[08-Apr-2019 08:51:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 47
+' at line 2' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(79): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[08-Apr-2019 08:52:30 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/connect.php on line 41
+[08-Apr-2019 08:53:03 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/connect.php on line 41
+[08-Apr-2019 08:55:32 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/connect.php on line 41
+[08-Apr-2019 10:53:18 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/profilr/app/helpers/connect.php on line 44
+[09-Apr-2019 17:42:33 UTC] PHP Fatal error:  Call to a member function fetchAll() on null in /home/profilr/app/helpers/admin.php on line 190
+[09-Apr-2019 17:43:21 UTC] PHP Fatal error:  Call to a member function fetchAll() on null in /home/profilr/app/helpers/admin.php on line 190
+[09-Apr-2019 17:54:34 UTC] PHP Fatal error:  Call to a member function fetchAll() on null in /home/profilr/app/helpers/admin.php on line 215
+[09-Apr-2019 18:07:47 UTC] PHP Fatal error:  Call to a member function fetchAll() on null in /home/profilr/app/helpers/admin.php on line 214
+[09-Apr-2019 18:13:13 UTC] PHP Fatal error:  Call to a member function fetchAll() on null in /home/profilr/app/helpers/admin.php on line 180
+[17-Apr-2019 14:29:38 UTC] PHP Fatal error:  Call to undefined function notifyMe() in /home/profilr/app/Models/ProfileView.php on line 22
+[17-Apr-2019 14:31:46 UTC] PHP Fatal error:  Call to undefined function notifyMe() in /home/profilr/app/Models/ProfileView.php on line 22
+[17-Apr-2019 14:52:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':  Undefined index: id in /home/profilr/public_html/views/member.php on line 44
+' at line 2' in /home/profilr/app/helpers/profile.php:95
+Stack trace:
+#0 /home/profilr/app/helpers/profile.php(95): PDO->query('select * from t...')
+#1 /home/profilr/app/helpers/profile.php(24): fetchEducation('\nNotice:  Undef...')
+#2 /home/profilr/public_html/controller/app.php(79): fetchUserInfo()
+#3 {main}
+  thrown in /home/profilr/app/helpers/profile.php on line 95
+[03-Feb-2020 14:06:40 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:06:40 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:06:40 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:06:40 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:06:40 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:06:40 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:09:06 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:09:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:09:06 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:09:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:09:06 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:09:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:06 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:06 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:06 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:11 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:11 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:11 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:11 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:17 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:17 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:17 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:17 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:51 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 14:10:51 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 16:39:58 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 16:39:58 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 16:39:58 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 16:39:58 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 16:40:54 UTC] PHP Warning:  require_once(../../config/config.php): failed to open stream: No such file or directory in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 16:40:54 UTC] PHP Fatal error:  require_once(): Failed opening required '../../config/config.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/vimfilec/getverifiedpro.com/controller/app.php on line 15
+[03-Feb-2020 16:49:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(8): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(86): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 16:52:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(8): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 16:52:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(8): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 16:54:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(8): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 16:54:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(8): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 16:55:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(8): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 16:55:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(8): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 16:57:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 16:59:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:00:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:01:08 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(90): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:02:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(88): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:03:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(88): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:10:15 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(82): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:11:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(91): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:27:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta'' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(88): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:28:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta'' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(88): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 17:28:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(88): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 19:49:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 19:49:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 20:22:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Feb-2020 20:22:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[04-Feb-2020 07:22:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[04-Feb-2020 10:23:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[04-Feb-2020 10:23:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[04-Feb-2020 10:25:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[04-Feb-2020 10:25:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[04-Feb-2020 23:08:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[04-Feb-2020 23:08:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[05-Feb-2020 07:33:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[05-Feb-2020 07:49:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/blog.php(4): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): getBlog()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[05-Feb-2020 07:49:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/blog.php(4): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): getBlog()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[07-Feb-2020 17:16:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[07-Feb-2020 17:16:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[09-Feb-2020 00:50:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[09-Feb-2020 00:50:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[09-Feb-2020 00:51:02 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 18:11:46 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 18:12:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 22:54:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:14:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:15:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:16:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:16:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:16:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:16:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:16:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:16:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/login.php(9): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): getLogin()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:53 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:55 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Feb-2020 23:17:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/signUp.php(7): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): signUp()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[11-Feb-2020 18:40:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[12-Feb-2020 09:52:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[12-Feb-2020 10:01:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[12-Feb-2020 17:20:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[12-Feb-2020 17:20:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[15-Feb-2020 19:46:17 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[20-Feb-2020 21:54:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[21-Feb-2020 17:31:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[21-Feb-2020 17:31:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[28-Feb-2020 18:29:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[28-Feb-2020 18:29:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Mar-2020 22:00:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Mar-2020 22:00:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Mar-2020 22:00:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[03-Mar-2020 22:00:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[06-Mar-2020 17:42:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[06-Mar-2020 17:42:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Mar-2020 05:09:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[10-Mar-2020 20:26:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[11-Mar-2020 04:35:05 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[13-Mar-2020 19:48:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[14-Mar-2020 17:47:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[14-Mar-2020 17:47:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21
+[15-Mar-2020 16:11:03 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'vimfilec_profilr_user'@'localhost' to database 'vimfilec_profilr_beta' in /home/vimfilec/getverifiedpro.com/app/Core/Database.php:21
+Stack trace:
+#0 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(21): PDO->__construct('mysql:host=loca...', 'vimfilec_profil...', 'portFOLIO_2015', Array)
+#1 /home/vimfilec/getverifiedpro.com/app/Core/Database.php(40): Database->__construct()
+#2 /home/vimfilec/getverifiedpro.com/app/helpers/opportunity.php(91): Database::getInstance()
+#3 /home/vimfilec/getverifiedpro.com/controller/app.php(94): recentPosts()
+#4 {main}
+  thrown in /home/vimfilec/getverifiedpro.com/app/Core/Database.php on line 21

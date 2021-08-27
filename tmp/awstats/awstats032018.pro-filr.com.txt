@@ -1,0 +1,353 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201803 will be lost/reset.
+# Last config file used to build this data file was /home/profilr/tmp/awstats/awstats.pro-filr.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2685                
+POS_VISITOR 8610                
+POS_DAY 9383                
+POS_DOMAIN 3265                
+POS_LOGIN 3559                
+POS_ROBOT 3714                
+POS_WORMS 4058                
+POS_EMAILSENDER 4189                
+POS_EMAILRECEIVER 4332                
+POS_SESSION 9530                
+POS_SIDER 9709                
+POS_FILETYPES 4467                
+POS_DOWNLOADS 4675                
+POS_OS 4723                
+POS_BROWSER 4881                
+POS_SCREENSIZE 5136                
+POS_UNKNOWNREFERER 5210                
+POS_UNKNOWNREFERERBROWSER 5370                
+POS_ORIGIN 5525                
+POS_SEREFERRALS 5661                
+POS_PAGEREFS 5820                
+POS_SEARCHWORDS 5968                
+POS_KEYWORDS 6120                
+POS_MISC 2349                
+POS_ERRORS 6179                
+POS_CLUSTER 3415                
+POS_SIDER_404 6287                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180401030710 35 5692 8901789306875
+FirstTime 20180328070858
+LastTime 20180331211434
+LastUpdate 20180401051153 35 0 34 0 0
+TotalVisits 18                  
+TotalUnique 18                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 3 3 500
+2 5 5 41071 1 4 0
+3 0 0 0 2 2 500
+4 2 2 34392 0 0 0
+5 1 1 500 3 5 1013
+6 0 0 0 1 2 3174
+7 5 17 345411 2 8 500
+8 49 59 287392 1 2 500
+9 49 63 2602319 16 19 356393
+10 16 16 109114 8 11 0
+11 1 1 0 2 4 1000
+12 0 0 0 2 3 500
+13 1 1 10552 4 4 0
+14 0 0 0 2 2 500
+15 0 0 0 3 5 1500
+16 0 0 0 0 0 0
+17 5 5 54842 11 12 500
+18 0 0 0 1 5 500
+19 3 3 53842 10 10 0
+20 1 1 500 0 0 0
+21 1 1 500 30 33 1500
+22 0 0 0 1 1 0
+23 0 0 0 5 6 34185
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+ao 111 135 2953905
+ng 14 26 475346
+ru 8 8 108184
+us 4 4 2000
+ro 1 1 500
+fr 1 1 500
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+bingbot/ 13 9161 20180331154038 0
+YandexBot/ 5 35185 20180330210456 0
+Googlebot/ 2 1000 20180329013925 0
+bot[\s_+:,\.\;\/\\-] 1 500 20180328111019 0
+crawl 1 500 20180331075132 0
+AhrefsBot/ 1 500 20180329051808 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+js 20 1640159 0 0
+jpg 2 103448 0 0
+php 112 501017 0 0
+png 6 8115 0 0
+css 8 898798 0 0
+woff2 3 143792 0 0
+Unknown 14 237945 0 0
+html 10 7161 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx12 2 2
+macosx8 1 1
+linux 1 1
+win10 164 128
+macosx9 1 1
+win7 2 2
+Unknown 1 1
+win8.1 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+firefox57.0 7 7
+chrome23.0.1271.64 1 1
+chrome26.0.1410.65 1 1
+Unknown 1 1
+chrome58.0.3029.110 1 1
+chrome65.0.3325.181 160 124
+opera46.0.2597.57 1 1
+firefox26.0 1 1
+chrome61.0.3163.100 1 1
+firefox50.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+NYU_Internet_Census_(https://scan.lol;_research@scan.lol) 20180328110016
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+NYU_Internet_Census_(https://scan.lol;_research@scan.lol) 20180328110016
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 12 12
+From1 0 0
+From2 1 1
+From3 0 0
+From4 126 162
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 21 0
+404 90 39
+206 2 355880
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 48
+/assets/lib/jquery.min.js 1 http://www.pro-filr.com/account
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/assets/lib/semantic/semantic.css 1 http://www.pro-filr.com/account
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 5 -
+/pages/index.php 11 -
+/assets/lib/font-awesome/css/font-awesome.css 1 http://www.pro-filr.com/account
+/sftp_config.json 1 -
+/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/ads.txt 1 -
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/xmlrpc.php 1 -
+/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/assets/plugins/font-awesome/css/font-awesome.min.css 1 -
+/.svn/wc.db 1 -
+/posts 1 http://pro-filr.com/engage
+/index.php 9 http://pro-filr.com/index.php
+/phpunit/Util/PHP/eval-stdin.php 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 -
+/assets/js/proxy.js 1 http://pro-filr.com/
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/robots.txt 16 -
+/assets/lib/jquery-1.12.4.min.js 1 http://pro-filr.com/
+/.git/config 1 -
+/.idea/WebServers.xml 1 -
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/ckupload/ckupload.php 1 -
+/assets/css/styles.css 1 http://pro-filr.com/
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/assets/lib/bootstrap/css/bootstrap.min.css 1 http://www.pro-filr.com/account
+/lib/smarty/plugins/modifier.config.php 1 -
+/admin/login.asp 1 -
+/.ssh/id_ecdsa 1 -
+/blog/xmlrpc.php 1 -
+/.DS_Store 1 -
+/.ssh/id_dsa 1 -
+/account 1 -
+/.ssh/id_ed25519 1 -
+/wp-content/plugins/fluid_forms/file-upload/server/php/ 1 http://pro-filr.com/wp-content/plugins/fluid_forms/file-upload/server/php/
+/.ssh/id_rsa 1 -
+/wp-login.php 4 http://pro-filr.com/wp-login.php
+/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/plus/img/wbg.gif 1 -
+/pages/index.html 1 -
+/.hg/hgrc 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+41.217.119.112 62 76 2666513 20180328103738
+41.217.114.117 49 59 287392 20180328082049
+154.118.27.23 5 17 345411 20180328071225
+169.255.125.242 5 5 41071 20180329024053
+5.166.215.193 3 3 53842 20180328170244
+5.3.207.98 3 3 53842 20180329191830
+54.187.131.111 1 1 500 20180331211434
+197.255.61.146 1 1 10552 20180328132132
+54.202.111.37 1 1 500 20180329200231
+197.210.227.248 1 1 10552 20180329105034
+154.118.21.173 1 1 33892 20180330044431
+23.89.240.70 1 1 500 20180328102413
+54.67.59.131 1 1 500 20180329170629
+178.156.202.250 1 1 500 20180329051440
+41.215.246.242 1 1 33868 20180328102650
+94.23.171.176 1 1 500 20180329171621
+158.46.217.156 1 1 500 20180330042551
+5.188.203.40 1 1 0 20180328110016
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20180328 123 159 3398078 8
+20180329 13 13 107465 7
+20180330 2 2 34392 2
+20180331 1 1 500 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+15mn-30mn 2
+0s-30s 14
+2mn-5mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/controller/app.php 40 21975 0 2
+/helpers/loader.php 33 4088 0 0
+/pages/login.php 29 306008 2 4
+/ 10 7161 9 8
+/home 4 31992 0 0
+/pages/signup.php 3 99555 2 0
+/cpanel 3 101628 3 2
+/pages/home.php 3 28077 1 0
+/pages/forum.php 2 24236 0 0
+/account 2 58422 1 0
+/invites 2 20492 0 0
+/pages/caq.php 2 17078 0 2
+/engage 1 11761 0 0
+/lib/semantic/themes/default/assets/fonts/icons.woff2 1 71896 0 0
+/assets/lib/semantic/themes/default/assets/fonts/icons.woff2 1 71896 0 0
+/posts 1 9078 0 0
+/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 1 0 0 0
+/search 1 4572 0 0
+END_SIDER

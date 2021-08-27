@@ -1,0 +1,20 @@
+[11-Mar-2019 06:39:59 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[12-Mar-2019 18:08:53 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[12-Mar-2019 18:09:01 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[12-Mar-2019 18:09:03 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[14-Mar-2019 19:08:22 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/forgotpassword.php on line 3
+[18-Mar-2019 10:46:37 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/professional.php on line 7
+[18-Mar-2019 10:48:18 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/professional.php on line 7
+[18-Mar-2019 10:49:49 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/professional.php on line 7
+[27-Mar-2019 15:00:42 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/moregroups.php on line 7
+[27-Mar-2019 16:28:04 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/test.php on line 7
+[27-Mar-2019 16:29:34 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/test.php on line 7
+[17-Apr-2019 12:40:43 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[17-Apr-2019 12:42:12 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[17-Apr-2019 12:42:30 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[17-Apr-2019 12:42:32 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[17-Apr-2019 12:42:35 UTC] PHP Fatal error:  Call to undefined function validateLogin() in /home/profilr/public_html/views/posts.php on line 7
+[23-Apr-2019 10:43:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/profilr/public_html/views/promoall.php:12) in /home/profilr/public_html/views/promoall.php on line 14
+[23-Apr-2019 12:10:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/profilr/public_html/views/promoall.php:149) in /home/profilr/public_html/views/promoall.php on line 153
+[23-Apr-2019 12:13:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/profilr/public_html/views/promoall.php:149) in /home/profilr/public_html/views/promoall.php on line 150
+[23-Apr-2019 12:15:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/profilr/public_html/views/promoall.php:149) in /home/profilr/public_html/views/promoall.php on line 150

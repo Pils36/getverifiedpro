@@ -1,0 +1,73 @@
+<form class="ui form error" id="opportunity">
+    <div class="field">
+        <label>Subject*</label>
+        <input id="subject" name="subject" placeholder="" type="text">
+    </div>
+    <div class="field">
+        <label>Submission Deadline*</label>
+        <input id="deadline" name="deadline" data-toggle="datepicker" placeholder="Pick deadline date" type="text" readonly>
+    </div>
+    <div class="field">
+        <label>Industry*</label>
+        <select id="industry" name="industry"></select>
+    </div>
+
+    <div class="field">
+        <label>Specialisation*</label>
+        <input id="specialisation" name="specialisation" placeholder="" type="text">
+    </div>
+
+
+    <div class="field">
+        <label>Detailed Description*</label>
+        <textarea id="description" name="description" placeholder="" type="text"></textarea>
+    </div>
+
+    <div class="field">
+        <label>Location*</label>
+        <input id="location" name="location" placeholder="Province, State, Country" type="text">
+    </div>
+
+    <div class="field">
+        <label>Describe The Major Requirements</label>
+        <textarea id="requirement" name="requirement" placeholder="" type="text"></textarea>
+    </div>
+
+    <div class="field">
+        <label>Zip/Postal Code</label>
+        <input id="zip" name="zip" placeholder="" type="text">
+    </div>
+
+    
+
+    <div class="field" style="display: none;">
+        <label>Attach Files</label>
+        <div class="two fields">
+            <div class="field">
+                <input type="file" name="file" id="file" class="ui secondary button" multiple>
+            </div>
+            <div class="field">
+                <div class="ui horizontal bulleted list" id="file_list">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</form>
+
+<script type="text/javascript">
+    $('[data-toggle="datepicker"]').datepicker({
+          format: 'yyyy-mm-dd'
+        });
+    $("#file").on("change", function () {
+        //console.log(this.files);
+        $("#file_list").html("");
+        $.each(this.files, function (v, k) {
+            $("#file_list").append("<div class='item'>" + k.name + "</div>")
+        });
+    });
+</script>
+                              

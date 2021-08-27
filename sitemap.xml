@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- <url>
+        <loc title='Home Page'>https://pro-filr.com/</loc>
+
+    </url> -->
+    <url>
+        <loc title='Home Page'>https://pro-filr.com/pages/home.php</loc>
+
+    </url>
+    <url>
+        <loc title='About Pro-Filr'>https://pro-filr.com/pages/about.php</loc>
+
+    </url>
+    <url>
+        <loc title='User Agreement'>https://pro-filr.com/pages/agreement.php</loc>
+
+    </url>
+    <url>
+        <loc title='Privacy and Terms'>https://pro-filr.com/pages/privacy.php</loc>
+
+    </url>
+    <url>
+        <loc title='Copyright Policy'>https://pro-filr.com/pages/copyright.php</loc>
+
+    </url>
+    <url>
+        <loc title='Blog'>https://pro-filr.com/pages/blog.php</loc>
+
+    </url>
+    <url>
+        <loc title='Forum Rules'>https://pro-filr.com/pages/forum.php</loc>
+
+    </url>
+
+</urlset>

@@ -1,0 +1,587 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201804 will be lost/reset.
+# Last config file used to build this data file was /home/profilr/tmp/awstats/awstats.pro-filr.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2673                
+POS_VISITOR 14372               
+POS_DAY 17595               
+POS_DOMAIN 3433                
+POS_LOGIN 3817                
+POS_ROBOT 3972                
+POS_WORMS 4723                
+POS_EMAILSENDER 4854                
+POS_EMAILRECEIVER 4997                
+POS_SESSION 18255               
+POS_SIDER 18440               
+POS_FILETYPES 5132                
+POS_DOWNLOADS 5346                
+POS_OS 5416                
+POS_BROWSER 5694                
+POS_SCREENSIZE 6550                
+POS_UNKNOWNREFERER 6624                
+POS_UNKNOWNREFERERBROWSER 7165                
+POS_ORIGIN 7438                
+POS_SEREFERRALS 7576                
+POS_PAGEREFS 7756                
+POS_SEARCHWORDS 7940                
+POS_KEYWORDS 8092                
+POS_MISC 2337                
+POS_ERRORS 8151                
+POS_CLUSTER 3673                
+POS_SIDER_404 8275                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180501010824 57 9549 14263692887212
+FirstTime 0
+LastTime 20180430123516
+LastUpdate 20180501050324 57 0 56 0 0
+TotalVisits 103                 
+TotalUnique 79                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 83                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 15 1173737 25 46 2452159
+1 49 82 3308565 55 78 8804
+2 2 2 9859 11 16 3500
+3 10 10 35368 13 23 19449
+4 3 3 1000 10 15 2500
+5 4 4 53842 24 34 5500
+6 14 44 8625500 105 163 6386066
+7 18 48 5051474 18 42 2433040
+8 67 89 3749845 52 70 1102829
+9 13 14 586433 17 26 37802
+10 12 13 116562 18 26 5500
+11 25 55 5583514 22 45 2390947
+12 8 10 70917 25 44 2266178
+13 2 2 9859 23 49 3023186
+14 3 3 1500 23 30 7000
+15 10 10 57342 24 34 39185
+16 2 2 1000 18 39 8383
+17 4 4 2000 14 22 5000
+18 11 11 166814 55 67 26218
+19 8 20 2412925 41 54 106971
+20 1 1 500 29 36 366959
+21 4 4 1000 15 33 2240845
+22 1 1 500 15 25 171862
+23 7 7 61504 30 38 39568
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+ng 167 267 13889736
+us 73 132 14895111
+ru 24 24 326052
+ca 7 7 2957
+cn 6 13 1958802
+gb 3 3 1500
+de 2 2 1000
+nl 1 1 500
+vn 1 1 0
+dk 1 1 4402
+no 1 1 500
+ua 1 1 500
+lv 1 1 500
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+spider 147 7444710 20180430061541 0
+bingbot/ 107 2882218 20180430232143 0
+Googlebot/ 89 44500 20180429220719 0
+bingpreview 56 9620460 20180426225640 0
+YandexBot/ 54 293621 20180430141222 0
+bot[\s_+:,\.\;\/\\-] 24 470406 20180429225428 0
+aiHitBot/ 22 2373264 20180419111633 0
+no_user_agent 7 3500 20180425031044 0
+AhrefsBot/ 6 3000 20180430103948 0
+crawl 5 2000 20180422231954 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 1500 20180430160234 0
+MJ12bot/ 2 1000 20180417204504 0
+DotBot/ 1 500 20180420173517 0
+YandexImages/ 1 2399 20180415011251 0
+Yahoo![\x20]Slurp[\x20]China 1 0 20180426045401 0
+crawler4j 1 500 20180423152229 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+woff2 6 431376 0 0
+Unknown 3 101604 0 0
+php 194 2695010 0 0
+js 106 20271601 0 0
+png 28 1281651 0 0
+html 84 49036 0 0
+css 32 6250325 0 0
+xml 1 957 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/sitemap.xsl 1 0 7732
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+win10 258 170
+win8.1 6 6
+win7 87 35
+Unknown 17 17
+ios_iphone 4 2
+winxp 3 3
+win2003 9 9
+win8 1 1
+macosx 1 1
+winlong 1 1
+win2000 6 6
+linux 2 2
+macosx11 1 1
+macosx12 18 18
+macosx8 1 1
+linuxandroid 32 8
+macosx10 7 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 40
+chrome58.0.3029.81 1 1
+chrome5.0.375.99 3 3
+chrome65.0.3325.181 250 162
+chrome12.0.742.100 1 1
+chrome34.0.1847.131 1 1
+msie7.0 9 9
+chrome57.0.2987.98 1 1
+Unknown 10 10
+firefox53.0 1 1
+mozilla 8 8
+chrome66.0.3359.117 1 1
+firefox45.0 1 1
+chrome5.0.375.125 1 1
+opera10.61 1 1
+chrome64.0.3282.137 15 3
+firefox39.1 3 3
+chrome58.0.3029.110 5 5
+firefox59.0 3 3
+chrome51.0.2704.84 5 5
+chrome40.0.2214.85 1 1
+chrome23.0.1271.95 1 1
+firefox34.0 1 1
+firefox35.0 3 3
+msie9.0 50 15
+chrome65.0.3325.109 16 4
+chrome41.0.2228.0 2 2
+chrome62.0.3202.94 1 1
+firefox55.0 1 1
+firefox30.1 3 3
+chrome37.0.2062.124 1 1
+safari9.0 4 2
+chrome63.0.3239.84 13 8
+chrome27.0.1453.93 1 1
+opera49.0.2725.47 3 3
+chrome45.0.2454.94 1 1
+chrome61.0.3163.100 14 14
+chrome28.0.1467.0 1 1
+safari10.1 1 1
+chrome34.0.1847.116 1 1
+firefox52.0 15 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+CuriousBot 20180417165246
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20180403063132
+Incapsula_Site_Setup_Helper 20180424072318
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180421003435
+SiteLock_(Module:_SMART;_Source:_http://www.sitelock.com/;_Version:_1.0) 20180430032640
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20180405004918
+Mozilla/5.0_(compatible;_ips-agent) 20180402072255
+Go-http-client/1.1 20180409004614
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+CuriousBot 20180417165246
+Incapsula_Site_Setup_Helper 20180424072318
+SiteLock_(Module:_SMART;_Source:_http://www.sitelock.com/;_Version:_1.0) 20180430032640
+Go-http-client/1.1 20180409004614
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 85 85
+From1 3 3
+From2 15 50
+From3 2 2
+From4 183 314
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google_com 1 1
+www_google_com 14 49
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.netcraft.com/survey/ 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 15 0
+206 2 5405
+500 2 0
+301 2 468
+404 475 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 114
+/wp-content/plugins/html5avmanager/lib/uploadify/uploadify.css 1 http://pro-filr.com/wp-content/plugins/html5avmanager/lib/uploadify/uploadify.css
+/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin/fckeditor/editor/dialog/fck_about/search.php 1 -
+/assets/lib/jquery.min.js 2 http://pro-filr.com/
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/blog/xmlrpc.php 1 -
+/.idea/WebServers.xml 1 -
+/FCKeditor3/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/lemon.txt 2 -
+/assets/lib/bootstrap/js/bootstrap.min.js 2 http://pro-filr.com/
+/admin/FCKeditor 1 -
+/FCKeditor3/editor/filemanager/connectors/php/connector.php 1 -
+/Web_fckeditor 1 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/assets/css/styles.css 3 http://pro-filr.com/
+/.ssh/id_ecdsa 1 -
+/wordpress/wp-login.php 1 -
+/FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/assets/lib/bootstrap/css/bootstrap.min.css 1 http://pro-filr.com/account
+/assets/lib/semantic/semantic.js 2 http://pro-filr.com/
+/admin/images/cal_date_over.gif 1 -
+/Web_fckeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/pages/index.html 16 -
+/js/mage/cookies.js 2 pro-filr.com
+/assets/lib/nprogress/nprogress.js 1 http://pro-filr.com/
+/wp/wp-login.php 1 -
+/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.css 1 http://pro-filr.com/administrator/components/com_bt_portfolio/helpers/uploadify/uploadify.css
+/wp-content/themes/gallery/style.css 1 http://pro-filr.com/wp-content/themes/gallery/style.css
+/assets/js/login.js 1 http://pro-filr.com/account
+/FCKeditor3/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/assets/lib/semantic/semantic.css 1 http://pro-filr.com/account
+/plus/moon.php 1 http://pro-filr.com
+/Web_fckeditor/editor/filemanager/connectors/php/connector.php 1 -
+/admin/FCKeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/pages/index.php 123 http://pro-filr.com/index.php
+/admin/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/Web_fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/home.html 1 -
+/sftp_config.json 1 -
+/components/com_sexycontactform/fileupload/index.php 1 http://pro-filr.com/components/com_sexycontactform/fileupload/index.php
+/assets/lib/font-awesome/css/font-awesome.css 1 http://pro-filr.com/account
+/Web_fckeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/FCKeditor3/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/Web_fckeditor/editor/filemanager/connectors/asp/connector.asp 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/.DS_Store 1 -
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/index.php 32 http://pro-filr.com/index.php
+/assets/js/proxy.js 3 http://pro-filr.com/
+/phpunit/Util/PHP/eval-stdin.php 1 -
+/FCKeditor 1 -
+/license.php 1 -
+/account 2 -
+/wp-login.php 7 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/logo_img.php 1 -
+/site/wp-login.php 1 -
+/FCKeditor/editor/filemanager/connectors/aspx/connector.aspx 1 -
+/.git/config 1 -
+/blog/wp-login.php 1 -
+/install/m7lrv.php 1 http://pro-filr.com
+/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/font-uploader/readme.txt 1 http://pro-filr.com/wp-content/plugins/font-uploader/readme.txt
+/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css 1 http://pro-filr.com/wp-content/plugins/Tevolution/tmplconnector/monetize/templatic-custom_fields/css/jquery.lightbox.css
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/dcman/BaseManage/TemplatePath_Manage.aspx 1 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/search.php 1 -
+//modules/mod_simplefileuploadv1.3/elements/udd.php 2 -
+/assets/lib/font-awesome/css/font-awesome.min.css 2 http://pro-filr.com/
+/FCKeditor3/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+/wp-content/themes/u-design/style.css 1 http://pro-filr.com/wp-content/themes/u-design/style.css
+/ads.txt 1 -
+/.ssh/id_dsa 1 -
+/wp-content/plugins/estatik/readme.txt 1 http://pro-filr.com/wp-content/plugins/estatik/readme.txt
+/user/register 2 -
+/FCKeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/assets/lib/jquery.redirect.js 2 http://pro-filr.com/
+/portal/wp-login.php 1 -
+/update.php 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.ssh/id_ed25519 1 -
+/assets/lib/jquery.blockUI.js 2 http://pro-filr.com/
+/dede/login.php 3 -
+/admin/FCKeditor/editor/filemanager/connectors/php/connector.php 1 -
+/plus/ad_js.php 1 -
+/.ssh/id_rsa 1 -
+/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/FCKeditor3 1 -
+/.hg/hgrc 1 -
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tags.php 1 -
+/assets/js/signup.js 1 http://pro-filr.com/account
+/.svn/wc.db 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/ckupload.php 1 -
+/lib/smarty/plugins/modifier.config.php 1 -
+/th1s_1s_a_4o4.html 7 http://www.google.com/url
+/robots.txt 164 -
+/userreg.asp 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 -
+/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/admin/login.php 1 -
+/NewsType.asp 1 -
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/xmlrpc.php 1 -
+/home 1 -
+/FCKeditor3/editor/filemanager/connectors/asp/connector.asp 1 -
+//Rose20180416164740.txt 2 -
+/Web_fckeditor/editor/filemanager/browser/default/connectors/asp/connector.asp 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/aspx/connector.aspx 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 83
+169.255.125.242 107 130 2636454 20180410104344
+54.67.59.131 11 11 5500 20180429154904
+197.210.44.144 11 25 403862 20180402014422
+197.242.109.19 11 29 2724759 20180424072349
+38.100.21.63 9 9 165814 20180420184030
+184.154.139.35 6 6 0 20180430032640
+166.62.126.3 5 5 2500 20180429152949
+197.210.54.151 5 6 302037 20180429115357
+197.210.55.194 5 8 886946 20180429115341
+197.210.173.170 4 16 2358583 20180429195821
+167.114.174.95 4 4 2457 20180421003439
+197.210.55.20 4 8 333139 20180429115430
+184.154.139.4 4 14 2874867 20180430061528
+197.210.54.226 4 8 53939 20180429115418
+184.154.139.49 4 14 2875000 20180428061706
+64.202.160.161 3 15 2324715 20180412072539
+118.24.1.220 3 5 789022 20180430082509
+5.164.231.190 3 3 53842 20180401193313
+5.3.221.239 3 3 53842 20180409152308
+95.79.176.121 3 3 53842 20180408124353
+5.166.218.244 3 3 53842 20180417084221
+95.79.71.230 3 3 53842 20180418052312
+95.79.64.120 3 3 53842 20180429014724
+163.172.4.153 3 3 1500 20180428032815
+184.154.139.50 2 7 1437500 20180429061734
+195.201.94.147 1 1 500 20180403044419
+104.236.16.94 1 1 500 20180405004918
+216.145.5.42 1 1 500 20180426235827
+197.210.226.199 0 1 3503 
+5.45.75.6 1 1 500 20180406010701
+172.251.39.172 1 1 500 20180420022721
+193.106.30.99 1 1 500 20180403095122
+69.12.66.213 1 1 500 20180420213459
+154.118.62.144 1 1 33868 20180429032439
+172.105.215.38 1 1 500 20180420234925
+134.119.253.55 1 1 500 20180423094233
+66.249.93.13 0 4 45961 
+34.233.170.159 2 2 1000 20180424072318
+159.89.114.210 2 2 0 20180425210721
+41.215.246.242 1 1 33868 20180413093951
+93.179.68.149 1 1 500 20180412164113
+172.87.222.87 1 1 0 20180416014741
+46.101.80.192 1 1 500 20180420111932
+159.203.127.111 1 1 500 20180409004614
+52.42.18.246 1 1 500 20180406182442
+115.75.223.221 1 1 0 20180426045349
+184.154.139.51 2 7 1437500 20180425061816
+66.249.93.11 0 2 2582 
+197.210.28.247 1 1 10552 20180425012317
+96.30.193.127 1 1 500 20180418184903
+197.210.24.115 1 3 850559 20180409012145
+158.46.218.212 1 1 500 20180426121243
+66.249.93.56 2 5 1824062 20180404115511
+35.205.40.246 1 1 500 20180424064028
+66.249.93.54 1 1 71896 20180404115516
+197.210.54.200 2 3 1423 20180429115201
+52.67.67.49 1 1 500 20180410152719
+197.210.54.167 1 6 1680815 20180429115134
+45.79.129.76 1 1 500 20180429170431
+184.154.139.52 2 7 1437500 20180426061946
+158.46.211.64 1 1 500 20180414190134
+197.255.61.146 1 1 9359 20180404135421
+69.58.178.59 1 1 500 20180402072255
+104.192.74.42 1 1 500 20180414170406
+197.210.227.106 1 1 11878 20180412010012
+176.9.46.150 2 2 1000 20180423154217
+66.249.93.58 0 3 380214 
+54.199.200.73 1 1 500 20180403224630
+139.81.96.88 1 1 500 20180421124002
+197.210.226.231 1 1 9359 20180412023443
+104.236.2.164 1 1 0 20180403063132
+54.187.131.111 1 1 500 20180411201435
+197.210.227.105 2 2 55102 20180411233518
+197.210.44.166 2 4 15575 20180430123516
+1.180.208.193 1 1 500 20180409034632
+64.246.187.42 1 1 500 20180409001742
+176.116.18.61 1 1 500 20180405145024
+89.201.7.172 1 1 500 20180417165246
+119.188.64.4 2 7 1169280 20180411001143
+50.2.38.209 1 1 500 20180425005125
+197.210.24.199 2 12 1474156 20180409012129
+213.32.93.218 1 1 4402 20180416233057
+104.236.0.141 1 1 0 20180403053431
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20180401 4 4 54342 2
+20180402 12 26 404362 2
+20180403 6 6 2000 6
+20180404 33 51 2834287 5
+20180405 2 2 1000 2
+20180406 2 2 1000 2
+20180407 1 1 500 1
+20180408 4 4 54342 2
+20180409 9 21 2380057 6
+20180410 80 97 2137241 2
+20180411 6 11 1225382 4
+20180412 6 19 2349955 4
+20180413 1 1 33868 1
+20180414 4 4 2000 4
+20180416 2 2 4402 2
+20180417 5 5 54842 3
+20180418 4 4 54342 2
+20180420 15 15 168814 7
+20180421 5 5 2957 2
+20180423 4 4 2000 3
+20180424 17 40 4164126 5
+20180425 7 12 1448552 5
+20180426 8 13 1439500 7
+20180427 4 9 1438000 3
+20180428 4 9 1438000 3
+20180429 35 70 7143592 14
+20180430 8 17 2242097 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+30s-2mn 1
+2mn-5mn 2
+0s-30s 96
+15mn-30mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/helpers/loader.php 98 1477121 4 10
+/ 80 36000 74 56
+/pages/home.php 22 205898 4 14
+/pages/login.php 21 221592 2 1
+/pages/landing.php 9 126405 0 0
+/pages/signup.php 8 265480 6 0
+/pages/forum.php 7 84826 0 0
+/pages/caq.php 6 51234 0 6
+/sitelock_find_13020965.php 6 0 6 6
+/lib/semantic/themes/default/assets/fonts/icons.woff2 6 431376 2 3
+/pages/posts.php 3 30981 0 0
+/cpanel 3 101604 2 3
+/admin/ 2 8918 1 0
+/pages/contact.php 2 23756 1 1
+/modals/opportunity.html 2 4118 0 0
+/admin/admin.php 2 21408 0 0
+/pages/search.php 2 11056 0 0
+/pages/help.php 1 7498 0 0
+/pages/privacy.php 1 66658 0 1
+/sitemap.xml 1 957 0 0
+/pages/blog.php 1 4402 1 1
+/pages/profile.php 1 13993 0 0
+/pages/member.php 1 11429 0 0
+/pages/copyright.php 1 14066 0 0
+/pages/invites.php 1 11464 0 0
+/pages/agreement.php 1 45743 0 1
+END_SIDER

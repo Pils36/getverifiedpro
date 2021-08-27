@@ -1,0 +1,3 @@
+<?php
+//authenticate user
+?>

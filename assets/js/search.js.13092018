@@ -1,0 +1,71 @@
+var search = search || {};
+
+search.load = function () {
+    if ($("#query").text()) {
+        $("#search_input").val($("#query").text());
+        //$(".search_main").trigger("click");
+        search.search();
+    }
+};
+
+search.search = function () {
+    var data = {
+        "function": "makeSearch",
+        "query": $("#search_input").val()
+    };
+    sendRequest.postJSON(data, "controller/app.php", function (response) {
+        //alert(response);
+        $("#search_results").addClass("loading");
+        if (response.data) {
+            buffer = "<div class='ui divided items'>";
+            $.each(response.data, function (v, k) {
+                var prof, coun, ind;
+
+                if (k.profession) {
+                    prof = k.profession;
+                } else {
+                    prof = "Not available";
+                }
+
+                if (k.country) {
+                    coun = k.country;
+                } else {
+                    coun = "Not available";
+                }
+
+                if (k.industry) {
+                    ind = k.industry;
+                } else {
+                    ind = "Not available";
+                }
+
+
+                buffer += "<div class='item'> <div class='content'> <a class='ui blue small header member_link' data-account='" + k.login_id + "' data-source='search'><i class='chevron right icon'></i>" + k.firstname.toProperCase() + " " + k.lastname.toProperCase() + "</a> <div class='description'> <p><span style='color:brown;'>Profession:</span> " + prof.toProperCase() + " | <span style='color:brown;'>Country:</span> " + coun.toProperCase() + " | <span style='color:brown;'>Area of Specialisation:</span> " + ind.toProperCase() + "</p> </div> </div> </div>";
+            });
+            buffer += "</div>";
+            $("#search_results").html(buffer);
+
+        } else {
+            $("#search_results").html(response.message);
+
+        }
+        $("#search_results").removeClass("loading");
+        $(".member_link").on("click", function () {
+            search.member(this);
+        });
+    });
+
+};
+
+search.member = function (el) {
+    $.redirect("member", {id: $(el).data("account"),source:$(el).data("source")}, "post");
+};
+
+search.load();
+
+
+String.prototype.toProperCase = function () {
+    return this.replace(/\w\S*/g, function (txt) {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    });
+};

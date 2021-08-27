@@ -1,0 +1,24 @@
+RewriteEngine on
+    #RewriteBase /
+    RedirectMatch "^/pages/signup\.php/?$" "https://getverifiedpro.com/account"
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond $1 !^(index\.php|assets|robots\.txt|.*\.css|.*\.js|.*\.ttf|.*\.eot|.*\.svg|.*\.otf|.*\.woff2|.*\.jpg|.*\.png|.*\.ico)
+    RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+    #https://pro-filr.com/pages/signup.php
+    RewriteCond %{SERVER_PORT} 80 
+    RewriteRule ^(.*)$ https://www.getverifiedpro.com/$1 [R,L]
+    
+    # php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php70” package as the default “PHP” programming language.
+# <IfModule mime_module>
+#   AddHandler application/x-httpd-ea-php70 .php .php7 .phtml
+# </IfModule>
+# php -- END cPanel-generated handler, do not edit
+    
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^getverifiedpro\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.getverifiedpro\.com$
+RewriteRule ^/?$ "https\:\/\/getverifiedpro\.com\/" [R=301,L]
+

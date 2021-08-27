@@ -1,0 +1,10 @@
+[13-Feb-2019 09:57:43 UTC] PHP Notice:  Undefined variable: data in /home/profilr/public_html/templates/Complete/Complete.php on line 72
+[13-Feb-2019 09:58:18 UTC] PHP Notice:  Undefined variable: data in /home/profilr/public_html/templates/Complete/Complete.php on line 72
+[13-Feb-2019 09:59:03 UTC] PHP Notice:  Undefined variable: data in /home/profilr/public_html/templates/Complete/Complete.php on line 72
+[13-Feb-2019 09:59:42 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/templates/Complete/Complete.php on line 72
+[13-Feb-2019 10:00:11 UTC] PHP Notice:  Undefined variable: email in /home/profilr/public_html/templates/Complete/Complete.php on line 72
+[13-Feb-2019 10:00:36 UTC] PHP Notice:  Undefined variable: res in /home/profilr/public_html/templates/Complete/Complete.php on line 72
+[13-Feb-2019 10:01:00 UTC] PHP Notice:  Undefined variable: res in /home/profilr/public_html/templates/Complete/Complete.php on line 72
+[13-Feb-2019 10:38:35 UTC] PHP Fatal error:  Call to a member function query() on null in /home/profilr/public_html/templates/Complete/Complete.php on line 99
+[13-Feb-2019 10:38:50 UTC] PHP Fatal error:  Call to a member function query() on null in /home/profilr/public_html/templates/Complete/Complete.php on line 99
+[13-Feb-2019 10:39:21 UTC] PHP Notice:  Array to string conversion in /home/profilr/public_html/templates/Complete/Complete.php on line 102

@@ -1,0 +1,131 @@
+# Webalizer V2.23-08 Incremental Data - 01/23/2019 15:09:23
+2019 1 23 15 9 23
+15 1 2 1 1 2 654 14 6 0
+1 4 8 3 23
+0 0 0 0 0 0
+0 0 0 0 0 0
+7 0 218 2 7 2
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 0 218 1 2 1
+6 1 218 1 5 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 0 218 1
+0 0 0 0
+0 0 0 0
+2 0 218 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+12 1 218 11
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+3
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+11
+0
+0
+0
+0
+0
+# -urls- 
+/favicon.ico
+0 1 14242496 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+197.157.216.15
+0 9 1 654 5 1548256163
+-
+105.112.38.202
+0 6 0 0 1 1546528622
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+197.157.216.15
+0 6 1 218 3 1548256163
+-
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 15
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.1
+0 3
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

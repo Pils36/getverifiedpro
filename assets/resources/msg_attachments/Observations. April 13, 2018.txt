@@ -1,0 +1,35 @@
+Landing Page:
+Search Field: Replace "what are you looking for" with Search Professionals, Specialisations in cities, countries and much more
+
+User Home Page
+Opportunity Page to be paginated. To list 5 on each page
+Validations, Profile views and Messages should be clickable-(only viewable by Paid Users)
+People you may know- What are the connections criteria that populate the page? We agreed that it should be connections of connections and the matching system
+Blog section: should be labelled "Blog"
+Recommendation Section - Not populated
+
+Connect Page
+Send Invite
+*New Invites: Kindly test that the Invite, Import from CSV and Import from Gmail are working
+Connection Suggestions: 
+*Please rename "Suggested Connection" 
+Suggested Connection Page.
+*Corporate profile of the connection not at the left side as agreed
+Connection Button- Think connection should be a deliberate action. So, there should be "connect with "xxx"" Button on the profile of the Suggested connections
+Add to Group- Not Working
+I think there should be "Connect with xxx" on the Suggested Connection Person Page and that would move the Suggested Connection Person to " My Connection Page" where i can add the person to a group.
+Company Page- Not saving
+*Validate user page - Kindly create a URL field (Optional) so i can include the website of a Validation basis
+
+Engage Page
+*Professional Groups. I could not create a group cos i have no connection. Think if we resolve logic in the connection and Add to Group, we should be able to move on.
+* Create Group- Select from 'my connection" and not "Select Member"
+* There should be a Web Chat in the group like what we did for Project Meeting Room Chat
+* We test opportunities and messages when connection issue is resolved
+
+Project Page
+I was able to create a project but could not assign task because i have no group and no member to assign task to.
+
+
+Generally on Main Menu.
+The main menu tab should glow to know which of the main menu i am." Home, Connect, Engage or Projects"

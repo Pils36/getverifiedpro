@@ -1,0 +1,348 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201805 will be lost/reset.
+# Last config file used to build this data file was /home/profilr/tmp/awstats/awstats.beta.pro-filr.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2685                
+POS_VISITOR 6613                
+POS_DAY 8361                
+POS_DOMAIN 3332                
+POS_LOGIN 3614                
+POS_ROBOT 3769                
+POS_WORMS 3954                
+POS_EMAILSENDER 4085                
+POS_EMAILRECEIVER 4228                
+POS_SESSION 8677                
+POS_SIDER 8885                
+POS_FILETYPES 4363                
+POS_DOWNLOADS 4645                
+POS_OS 4693                
+POS_BROWSER 4831                
+POS_SCREENSIZE 5026                
+POS_UNKNOWNREFERER 5100                
+POS_UNKNOWNREFERERBROWSER 5187                
+POS_ORIGIN 5269                
+POS_SEREFERRALS 5407                
+POS_PAGEREFS 5551                
+POS_SEARCHWORDS 5699                
+POS_KEYWORDS 5851                
+POS_MISC 2349                
+POS_ERRORS 5910                
+POS_CLUSTER 3470                
+POS_SIDER_404 6039                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180607223854 1 0 10129624890627
+FirstTime 20180501004621
+LastTime 20180515075255
+LastUpdate 20180608051308 1 0 0 0 0
+TotalVisits 52                  
+TotalUnique 39                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 40                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 170 191 1295825 6 10 3244
+1 201 219 1579323 0 0 0
+2 82 105 1299589 3 3 13
+3 31 32 237889 4 5 0
+4 48 50 273567 6 6 0
+5 0 0 0 1 1 228
+6 93 207 11693401 4 26 4470744
+7 356 535 9661499 6 17 1597332
+8 100 132 853758 6 10 52
+9 80 155 3474723 2 7 12528
+10 107 225 646929 2 2 0
+11 85 93 305636 1 2 228
+12 0 0 0 1 1 228
+13 119 179 6249132 2 8 885909
+14 310 353 4091762 1 3 18135
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 1 2 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 21 44 2559325 2 8 615916
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+ng 1556 2106 33386210
+ao 153 257 6828156
+us 94 156 4005593
+sg 0 1 2399
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+Yahoo[\x20]Link[\x20]Preview 1 3166 20180502003222 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+php 1304 6087381 0 0
+js 380 15839061 0 0
+woff2 37 1438220 0 0
+html 38 161352 0 0
+woff 1 83588 0 0
+map 4 1136444 0 0
+jpeg 8 366460 0 0
+jpg 78 2655137 0 0
+Unknown 419 5069250 0 0
+png 91 1043030 0 0
+css 160 10342435 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+macosx12 547 355
+linuxandroid 2 2
+win10 1706 1311
+linux 264 135
+win7 1 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 7
+chrome65.0.3325.181 59 54
+chrome66.0.3359.170 589 482
+msie7.0 1 0
+firefox59.0 487 329
+chrome66.0.3359.139 507 274
+edge15 876 664
+netscape5.0 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 64 66
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1739 2454
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+500 7 0
+206 30 7600421
+302 21 0
+404 28 286
+301 3 684
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 10
+/.remote-sync.json 1 -
+/email 4 http://beta.pro-filr.com/reports
+/admin 2 -
+/account 2 http://beta.pro-filr.com/
+/robots.txt 14 -
+/.vscode/ftp-sync.json 1 -
+/invites 1 http://beta.pro-filr.com/home
+/deployment-config.json 1 -
+/.ftpconfig 1 -
+/sftp-config.json 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 40
+197.210.45.113 304 313 2222158 20180501040745
+197.242.113.74 260 440 1788811 20180504111823
+197.210.55.21 107 127 715048 20180514024507
+197.210.55.80 92 115 905530 20180514024536
+197.210.55.140 90 106 2278044 20180514024536
+41.217.117.183 89 136 1541953 20180515075255
+197.210.55.96 82 96 1065348 20180514024537
+197.210.55.202 70 89 1560551 20180514024754
+197.210.53.15 68 88 864736 20180514072511
+197.210.54.41 66 85 2605901 20180514024422
+129.56.12.79 65 92 568114 20180509084709
+154.118.58.56 60 82 760706 20180502082630
+41.217.122.214 53 83 1831179 20180514094722
+197.210.47.38 50 77 1143591 20180514063314
+197.210.53.170 46 64 1984315 20180514073726
+197.210.53.85 38 48 566861 20180514072803
+197.210.55.47 37 42 322014 20180508000744
+129.56.12.102 29 64 3437479 20180509071445
+105.112.34.133 28 62 3376445 20180514073501
+197.210.55.228 22 26 147573 20180502004734
+105.112.32.206 21 44 2559325 20180512223503
+197.210.55.147 20 21 119815 20180502004748
+197.210.54.220 17 18 156255 20180502004636
+197.210.55.156 14 16 114770 20180508000632
+197.242.106.183 13 34 2664004 20180504090917
+197.210.54.1 2 4 3926 20180508000132
+197.210.54.26 3 4 12615 20180508000236
+197.210.55.79 11 11 67064 20180502004759
+41.217.125.206 11 38 3455024 20180514061606
+41.58.100.54 5 24 2492569 20180515065603
+105.112.37.175 4 22 2487584 20180502135740
+42.61.41.114 0 1 2399 
+197.210.54.35 9 11 70749 20180502004800
+197.210.53.176 2 2 29411 20180503030523
+197.210.54.136 2 3 20513 20180508000744
+197.210.47.223 3 11 29459 20180514133049
+105.112.37.125 1 4 3783 20180513084909
+154.118.21.231 2 4 3222 20180504080813
+197.210.172.14 3 7 153154 20180502064251
+197.210.54.239 4 6 90360 20180508000605
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20180501 304 313 2222158 2
+20180502 163 217 4114129 9
+20180503 2 2 29411 1
+20180504 275 478 4456037 4
+20180508 45 57 415368 6
+20180509 94 156 4005593 2
+20180512 21 44 2559325 1
+20180513 423 503 7827634 7
+20180514 382 590 14558181 18
+20180515 94 160 4034522 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 2
+15mn-30mn 6
+30mn-1h 2
+1h+ 10
+5mn-15mn 17
+2mn-5mn 4
+0s-30s 11
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 31
+/controller/app.php 1304 6087381 16 42
+/home 75 521774 3 1
+/member 55 659892 1 0
+/account 47 1376218 7 2
+/invites 42 559891 2 0
+/search 41 158038 0 1
+/posts 39 403014 0 0
+/ 32 121785 17 1
+/projects 29 389786 0 0
+/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 28 1132608 0 1
+/groups 26 328578 0 0
+/profile 15 191996 0 0
+/blog 8 31976 2 0
+/upgrade 8 58053 1 1
+/reports 8 31560 1 1
+/assets/lib/semantic/themes/default/assets/fonts/icons.woff2 7 287584 0 0
+/company 5 35751 0 0
+/dashboard 5 54935 1 0
+/agreement 4 166888 0 1
+/views/modals/company.html 4 9669 0 0
+/about 4 20176 0 0
+/copyright 3 30045 0 0
+/admin 3 22055 1 0
+/assets/lib/bootstrap/css/bootstrap.min.css.map 3 1084388 0 0
+/assets/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2 2 18028 0 0
+/views/modals/profile.html 1 27839 0 0
+/cookies 1 19778 0 0
+/assets/lib/bootstrap-select/js/bootstrap-select.js.map 1 52056 0 1
+/landing 1 8846 0 0
+/views/modals/opportunity.html 1 2059 0 0
+/assets/lib/font-awesome/fonts/fontawesome-webfont.woff 1 83588 0 0
+END_SIDER

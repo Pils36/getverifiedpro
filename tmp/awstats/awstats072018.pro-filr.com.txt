@@ -1,0 +1,897 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201807 will be lost/reset.
+# Last config file used to build this data file was /home/profilr/tmp/awstats/awstats.pro-filr.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2690                
+POS_VISITOR 26358               
+POS_DAY 32718               
+POS_DOMAIN 3604                
+POS_LOGIN 4161                
+POS_ROBOT 4316                
+POS_WORMS 5356                
+POS_EMAILSENDER 5487                
+POS_EMAILRECEIVER 5630                
+POS_SESSION 33585               
+POS_SIDER 33795               
+POS_FILETYPES 5765                
+POS_DOWNLOADS 6082                
+POS_OS 6130                
+POS_BROWSER 6440                
+POS_SCREENSIZE 7619                
+POS_UNKNOWNREFERER 7693                
+POS_UNKNOWNREFERERBROWSER 8442                
+POS_ORIGIN 8757                
+POS_SEREFERRALS 8902                
+POS_PAGEREFS 9120                
+POS_SEARCHWORDS 9492                
+POS_KEYWORDS 9644                
+POS_MISC 2354                
+POS_ERRORS 9703                
+POS_CLUSTER 4017                
+POS_SIDER_404 9837                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180801002218 370 83062 17370710098953
+FirstTime 20180701103130
+LastTime 20180731211654
+LastUpdate 20180801051042 370 0 369 0 0
+TotalVisits 281                 
+TotalUnique 153                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 157                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 13 39 3816448 46 140 3850159
+1 43 49 1625116 37 141 6501368
+2 83 146 11880675 166 198 1522583
+3 34 69 3624701 76 252 18052158
+4 12 21 1352160 31 92 6779686
+5 26 55 3245898 35 149 9321238
+6 47 160 10228173 43 168 13610563
+7 14 124 8297383 17 83 4201419
+8 31 114 9131820 44 118 6421549
+9 29 128 13681029 27 112 4805423
+10 40 52 1838908 42 121 5341833
+11 46 136 5951701 32 122 5822011
+12 124 239 19352631 18 56 3286874
+13 113 530 61264500 772 1537 56977245
+14 68 263 22307189 55 137 4520464
+15 62 100 8359583 24 76 1932249
+16 184 553 50096842 22 53 1923316
+17 51 85 9988420 45 174 11842208
+18 93 173 13278111 31 101 4586455
+19 98 329 22780764 19 87 3878360
+20 63 157 8896570 28 112 4076079
+21 25 120 7429015 21 58 325819
+22 147 245 8771093 46 202 6706484
+23 19 79 6704501 55 134 10701161
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+ca 716 1447 107985262
+ng 282 730 61787249
+us 275 1139 91626037
+cz 32 167 21111400
+cn 26 68 2543909
+gb 25 53 3802195
+ae 23 55 4633763
+ru 22 62 4633398
+in 21 131 9533124
+id 12 62 4255383
+za 8 20 1519510
+ua 6 6 63137
+fr 4 4 19666
+nl 3 3 26536
+pl 2 2 8566
+es 2 11 275140
+ph 1 1 11100
+de 1 1 11100
+ro 1 1 11100
+au 1 1 11099
+pt 1 1 23458
+se 1 1 11099
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+spider 1308 56433223 20180731140650 0
+Googlebot/ 605 28432387 20180731224105 0
+AdsBot\-Google[\x20]\( 568 60822119 20180731011212 0
+bot[\s_+:,\.\;\/\\-] 214 18851602 20180731160801 0
+bingbot/ 117 10328952 20180728161927 0
+YandexBot/ 70 2722496 20180731225516 0
+AhrefsBot/ 66 1421563 20180727030141 0
+Baiduspider/ 59 2262150 20180731112006 0
+linkdexbot/ 52 997371 20180723131123 0
+bingpreview 48 3492858 20180718111919 0
+DotBot/ 32 616656 20180728114902 0
+PhantomJS 25 1658682 20180722064945 0
+MJ12bot/ 18 281753 20180729035745 0
+facebookexternalhit/ 16 38384 20180727130023 0
+Apache\-HttpClient/ 15 166500 20180719005425 0
+no_user_agent 10 84618 20180731094043 0
+crawl 8 52614 20180720232224 0
+Yahoo![\x20]Slurp 5 21415 20180727144137 0
+Googlebot\-Image/ 3 2312 20180730020751 0
+java 2 22200 20180715035927 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 15383 20180725144728 0
+GrapeshotCrawler/ 1 4108 20180704112142 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+svg 6 175794 0 0
+css 1228 72519480 0 0
+map 2 1084388 0 0
+png 138 644438 0 0
+jpg 76 4867677 0 0
+html 267 2276699 0 0
+Unknown 268 5017615 0 0
+woff2 58 3759216 0 0
+js 1052 203567140 0 0
+php 866 19680080 0 0
+xml 1 957 0 0
+jpeg 1 91615 0 0
+eot 3 218132 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 18
+linux 182 38
+win2003 11 7
+win10 1157 579
+linuxubuntu 1 1
+linuxandroid 1077 275
+Unknown 88 81
+macosx10 3 3
+ios_iphone 59 16
+win7 847 222
+winlong 2 2
+macosx12 458 210
+win2000 1 1
+macosx 2 2
+win8.1 43 15
+unix 1 1
+winxp 3 3
+winnt 4 4
+macosx11 27 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 57
+firefox52.6.0 1 1
+chrome65.0.3325.181 1 1
+chrome34.0.1847.116 2 2
+chrome37.0.2062.120 2 2
+chrome65.0.3325.146 546 78
+firefox52.0 12 12
+safari9.0 2 2
+firefox61.0 179 74
+iphone 57 14
+chrome45.0.2454.94 1 1
+chrome67.0.3396.87 159 30
+netscape 20 20
+firefox38.0 2 2
+firefox27.0 1 1
+firefox40.1 2 2
+firefox56.0 2 2
+chrome47.0.2526.111 1 1
+chrome67.0.3396.79 21 1
+chrome31.0.1650.57 2 2
+chrome27.0.1453.93 1 1
+chrome66.0.3359.181 23 1
+chrome60.0.3112.101 1 1
+edge16 33 6
+safari 1 1
+firefox33.0 8 8
+firefox51.0 1 1
+opera54.0.2952.54 1 1
+netscape5.0 1 1
+chrome58.0.3029.110 23 23
+chrome67.0.3372.0 162 27
+chrome13.0.782.24 1 1
+chrome60.0.3112.50 12 3
+msie10.0 23 5
+chrome62.0.3202.94 1 1
+chrome63.0.3239.132 1 1
+chrome53.0.2785.143 2 2
+chrome55.0.2883.87 1 1
+wap 10 3
+chrome67.0.3396.99 1518 738
+firefox54.0 2 2
+firefox34.0 1 1
+firefox47.0 1 1
+msie8.0 3 3
+chrome59.0.3071.125 356 162
+msie9.0 331 56
+msie7.0 12 8
+mozilla 26 26
+chrome52.0.2743.116 242 43
+Unknown 37 37
+firefox59.0 2 2
+firefox57.0 3 3
+chrome68.0.3440.75 17 6
+msie11.0 27 5
+chrome61.0.3163.100 27 27
+chrome46.0.2490.80 1 1
+chrome27.0.1453.116 1 1
+opera37.0.2192.110129 40 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 14
+Google-OAuth 20180724205636
+Python/3.6_aiohttp/2.3.2 20180706084310
+Mozilla/5.0_(compatible;_ips-agent) 20180703052024
+python-requests/2.9.0 20180713034628
+Mozilla 20180710205928
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20180703220356
+Mozilla/5.0_(compatible;_Dataprovider.com;) 20180724150129
+Mozilla/5.0 20180723074011
+AHC/2.1 20180726194615
+SiteLock_(Module:_SMART;_Source:_http://www.sitelock.com/;_Version:_1.0) 20180731104606
+Mozilla/5.0_(compatible;_TrendsmapResolver/0.1) 20180723005224
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20180702184335
+Mozilla/5.0_(compatible;_Wappalyzer) 20180731050102
+\ 20180718132830
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Python/3.6_aiohttp/2.3.2 20180706084310
+\ 20180718132830
+SiteLock_(Module:_SMART;_Source:_http://www.sitelock.com/;_Version:_1.0) 20180731104606
+AHC/2.1 20180726194615
+Google-OAuth 20180724205636
+python-requests/2.9.0 20180713034628
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 357 383
+From1 5 5
+From2 40 315
+From3 11 11
+From4 1052 3252
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+www_google_co_za 2 2
+www_google_com 33 308
+yandexru 2 2
+www_google_ca 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 8
+https://www.linkedin.com 3 3
+http://www.netcraft.com/survey/ 2 2
+http://lnkd.in 1 1
+http://pizza-tycoon.com 1 1
+https://t.co/zLAoX5nixg 1 1
+https://t.co/77Z6ABiThh 1 1
+http://burger-imperia.com 1 1
+http://m.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 1 234
+302 9 229
+206 77 8243817
+404 1016 13078
+500 1 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 267
+/admin_UploadDataHandler.ashx 1 http://pro-filr.com/admin_UploadDataHandler.ashx
+/wp-content/uploads/bb.php 1 http://pro-filr.com/wp-content/uploads/bb.php
+/back.rar 1 -
+/dxyylc/md5.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/back.zip 1 -
+/plus/mybak.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/wp-content/yt.php 1 -
+/plus/xsvip.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/nali/wp-content/plugins/Login-wall-artVr/login_wall.php 3 http://pro-filr.com/nali/wp-content/plugins/Login-wall-artVr/login_wall.php
+/plus/advancedsearch.php 1 http://pro-filr.com/plus/advancedsearch.php
+/123.zip 1 -
+/plus/erraddsave.php 1 http://pro-filr.com/plus/erraddsave.php
+/beifen.zip 1 -
+/admin.php/code/mod 1 http://pro-filr.com/admin.php/code/mod
+/templates/system/css/system.css 1 -
+/htdocs.rar 1 -
+/lib/smarty/plugins/modifier.config.php 1 -
+/media/system/js/calendar-setup.js 1 pro-filr.com
+/admin/adminmailto.asp 1 -
+/info1.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/assets/components/gallery/connector.php 1 pro-filr.com
+/adminin 1 -
+/info.asp 1 http://pro-filr.com/info.asp
+/1.rar 1 -
+/web.rar 1 -
+/a.php 2 http://pro-filr.com/a.php
+/www.rar 1 -
+/images/css.php 1 http://pro-filr.com/images/css.php
+/Somnus/Somnus.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plugins/weathermap/configs/test404.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/inc/AspCms_AdvJs.asp 1 http://pro-filr.com/inc/AspCms_AdvJs.asp
+/assets/js/upgrade 31 -
+/domains.zip 1 -
+/uploadfile/userfiles/media/confg.inc.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/admin/images/cal_date_over.gif 1 -
+/data/cache/t.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/bf.zip 1 -
+/wwwroot.zip 1 -
+/beifen.rar 1 -
+/plus/e7xue.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/tempplate/___index.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mysql.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/av.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/myjs.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/qingtian.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/admin/sdfg.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mowang.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/pages/copyright.php 2 -
+/images/css/Thumb.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/uc_client/model/tag.php 1 http://pro-filr.com/uc_client/model/tag.php
+/domains.rar 1 -
+/connectors/system/phpthumb.php 3 -
+/wp-content/plugins/akismet/akismet.php 1 http://pro-filr.com/wp-content/plugins/akismet/akismet.php
+/data/cache/fuck.php.parse_search_.inc 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/wp-admin/yt.php 1 -
+/index.php/module/action/param1/%7B$%7Beval($_POST%5Bs%5D)%7D%7D 3 http://pro-filr.com/index.php/module/action/param1/%7B$%7Beval($_POST[s])%7D%7D
+/ads/admin/admin.lnc.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/admininc.asp 1 http://pro-filr.com/admininc.asp
+/caches/error_ches.php 1 http://pro-filr.com/caches/error_ches.php
+/shell.asp 1 http://pro-filr.com/shell.asp
+/dxyylc/md5.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/public_html.rar 1 -
+/pro-filr.com.rar 2 -
+/plus/mytag_js.phpaid=8080 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/pages/about.php 3 -
+/Templates/red.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/90000.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/1.php 1 http://pro-filr.com/1.php
+/plus/mytag_js.phpaid=9999 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/hxgs.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/wp-content/themes/alarabiya/page-tunisproduct.php 1 http://pro-filr.com/wp-content/themes/alarabiya/page-tunisproduct.php
+/md5.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/cache/opn-post.php 1 http://pro-filr.com/cache/opn-post.php
+/images/cache.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/wp-includes/js/wpdialog.js 1 pro-filr.com
+/bnlduqjwmz.html 1 -
+/fckeditor/editor/filemanager/upload/aspx/upload.aspx 1 http://pro-filr.com/fckeditor/editor/filemanager/upload/aspx/upload.aspx
+/wp-content/plugins/css.php 1 http://pro-filr.com/wp-content/plugins/css.php
+/images/Sql.asp 2 http://pro-filr.com/images/Sql.asp
+/admin/admin/SqlIn.asp 1 http://pro-filr.com/admin/admin/SqlIn.asp
+/plus/x.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/assets/assets/sitemap.xml 37 http://www.google.com/url
+/manage/Images/Sql.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/server/php/ 1 http://pro-filr.com/server/php/
+/wp-content/themes/peer-theme/404.php 1 http://pro-filr.com/wp-content/themes/peer-theme/404.php
+/bf.rar 1 -
+/.idea/libraries/css.php 1 http://pro-filr.com/.idea/libraries/css.php
+/test.rar 1 -
+/resd.php 1 http://pro-filr.com/resd.php
+/home.html 18 -
+/images/css/sqlin.asp 1 http://pro-filr.com/images/css/sqlin.asp
+/include/taglib/ty.lib.php 1 http://pro-filr.com/include/taglib/ty.lib.php
+/plus/mytag_js.phpaid=909 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/pages/contact.php 2 -
+/templets/good.php 1 http://pro-filr.com/templets/good.php
+/data/cache/asd.php 1 http://pro-filr.com/data/cache/asd.php
+/plus/mytag_js.phpaid=9521 6 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/md5.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/pro-filr.rar 1 -
+/iis.aspx 3 http://pro-filr.com/iis.aspx
+/admin_login.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/statics/images/cache.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/spider.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/install/m7lrv.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/research.asp 1 http://pro-filr.com/research.asp
+/fckeditor/editor/filemanager/connectors/php/connector.php 1 http://www.sheaf.com.tw/fckeditor/editor/filemanager/connectors/test.html
+/b.php 1 http://pro-filr.com/b.php
+/wp-content/plugins/advanced-custom-fields-pro/acf.php 1 http://pro-filr.com/wp-content/plugins/advanced-custom-fields-pro/acf.php
+/index.php/module/aciton/param1/$%7B@eval%28$_POST%5Bok%5D%29%7D 3 http://pro-filr.com/index.php/module/aciton/param1/$%7B@eval%28$_POST%5Bok%5D%29%7D
+/dede/login.php 2 -
+/admin/login.php 1 -
+/data/conn/config.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/utility/convert/data/config.inc.php 3 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mycak.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/www.zip 1 -
+/bbs/utility/convert/data/config.inc.php 2 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/daibinhtour.com/wp-content/plugins/Login-wall-YuhGf/login_wall.php 3 http://pro-filr.com/daibinhtour.com/wp-content/plugins/Login-wall-YuhGf/login_wall.php
+/assets/images/opn-post.php 1 http://pro-filr.com/assets/images/opn-post.php
+/plus/backup.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mcds.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mytag_j.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/news/html 1 http://pro-filr.com/news/html
+/pro-filr.zip 1 -
+/include/helperss/filter.helpear.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/crm/studio/modules/EntityRelease/release.php 1 http://pro-filr.com/crm/studio/modules/EntityRelease/release.php
+/1.zip 1 -
+/kdatebase/index_.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/email/yt.php 1 http://pro-filr.com/email/yt.php
+/install/md5.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/img/mscms.php.php 1 http://pro-filr.com/plus/img/mscms.php.php
+/plus/moon.php 2 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/dang.php 1 http://pro-filr.com/dang.php
+/cron 2 -
+/admin/newfile.php 1 http://pro-filr.com/admin/newfile.php
+/pages/forum.php 2 -
+/preview.php 1 http://pro-filr.com/preview.php
+/config/AspCms_Config.asp 4 http://pro-filr.com/config/AspCms_Config.asp
+/123.rar 1 -
+/cache.php 1 -
+/manager/index.php 1 http://pro-filr.com/manager/index.php
+/pages/privacy.php 1 -
+/fckeditor/editor/filemanager/upload/php/upload.php 1 http://pro-filr.com/fckeditor/editor/filemanager/upload/php/upload.php
+/faq.php 1 http://pro-filr.com/faq.php
+/pages 1 -
+/wp-login.php 17 http://pro-filr.com/wp-login.php
+/wp-content/plugins/easyrotator-for-wordpress/a.php 1 http://pro-filr.com/wp-content/plugins/easyrotator-for-wordpress/a.php
+/plus/mytag_js.phpaid=9527 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mcds.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/user/register/ 2 -
+/base/admin/cache.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/yt.php 1 -
+/wp-includes/css/modules.php 1 http://pro-filr.com/wp-includes/css/modules.php
+/plug/comment/commentList.asp 1 http://pro-filr.com/plug/comment/commentList.asp
+/plus/mytag_js.php 15 http://pro-filr.com/plus/mytag_js.php
+/plus/mytag_js.phpaid=9090 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/data/44test.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/include/ckeditor/plugins/pagebreak/images/inCahe.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/public_html.zip 1 -
+/pages/blog.php 2 -
+/wp-content/plugins/additional-image-sizes-zui/init.php 1 http://pro-filr.com/wp-content/plugins/additional-image-sizes-zui/init.php
+/data/admin/ver.txt 3 -
+/plus/service.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/wwwroot.rar 1 -
+/htdocs.zip 1 -
+/pages/agreement.php 1 -
+/wp-content/plugins/sfn.php 1 http://pro-filr.com/wp-content/plugins/sfn.php
+/admin/error.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/ms.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/flow.php 1 -
+/home/cache/cachedata.end.php 1 http://pro-filr.com/home/cache/cachedata.end.php
+/wp-content/themes/twentyfifteen/404.php 1 http://pro-filr.com/wp-content/themes/twentyfifteen/404.php
+/Aback.php 1 http://pro-filr.com/Aback.php
+/feedback/uploadfile_save.php 1 -
+/data/img/css/xianf.ASP 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/include/data/fonts/uddatasql.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/myship.php 1 http://pro-filr.com/myship.php
+/app/pics/thumb.php 1 http://pro-filr.com/app/pics/thumb.php
+/plus/bakup.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/Manage/ewebeditor/SqlIn.asp 1 http://pro-filr.com/Manage/ewebeditor/SqlIn.asp
+/Thumbs.asp 1 http://pro-filr.com/Thumbs.asp
+/disc/20013/images/asp_a.asp 1 http://pro-filr.com/disc/20013/images/asp_a.asp
+/data/config.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/member/list.php 1 http://pro-filr.com/member/list.php
+/plus/ad_js.php 2 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/install/index.php.bak 1 http://pro-filr.com/install/index.php.bak
+/manager/assets/modext/core/modx.js 3 -
+/xmlrpc.php 1 -
+/images/b.php 1 http://pro-filr.com/images/b.php
+/mysql/lanleji.PHP 3 http://pro-filr.com/mysql/lanleji.PHP
+/content-post.php 1 -
+/plugins/weathermap/editor.php 1 http://pro-filr.com/plugins/weathermap/editor.php
+/shell.php 1 http://pro-filr.com/shell.php
+/book/story_dod_hjkdsafon.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/assets/library/jquery.min.js 144 http://pro-filr.com/
+/admin/Admin_Ta.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/lang/cn/system.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/download.php 3 http://pro-filr.com/plus/download.php
+/assets/plugins/font-awesome/css/font-awesome.min.css 1 http://www.pro-filr.com/home
+/sq52zr.php 1 -
+/inc/upfile_class.asp 1 -
+/plus/m7lrv.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/inc/mdb.asp 1 http://pro-filr.com/inc/mdb.asp
+/admin/images/Sql.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mytag_js.phpaid=9013 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/digg.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mumaasp.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/backup.rar 1 -
+/USB 3 http://pro-filr.com/USB
+/index.php/Index/index/name/$%7B@eval($_POST%5Bc%5D) 3 http://pro-filr.com/index.php/Index/index/name/${@eval($_POST[c])
+/plus/mytag_js.phpaid=6022 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/config/AspCms_config.asp 1 -
+/pages/upgrade.php 2 -
+/struts2-showcase/filedownload/index.action 2 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/js/mage/cookies.js 2 pro-filr.com
+/plus/90sec.php 2 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mytag_js.phpaid=1 4 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/%12%0C+14379258344 8 -
+/plus/mytag_js.phpaid=7888 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/opn-post.php 1 http://pro-filr.com/opn-post.php
+/test.zip 1 -
+/consystem.php 1 -
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/webconfig.txt.php 1 http://pro-filr.com/webconfig.txt.php
+/searchr.asp 1 http://pro-filr.com/searchr.asp
+/plus/mytag_js.php%20aid=9090 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/respond.php 1 -
+/test404.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/about/newfile.php 1 http://pro-filr.com/about/newfile.php
+/plus/laobiao.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/pages/home.php 1 -
+/data/data/index.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/plus/mytag_j.phpaid=6022 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/admin/include/uploadify.php 1 -
+/assets/lib/jquery-1.12.4.min.js 1 http://www.pro-filr.com/home
+/admin/xm.asp 1 http://pro-filr.com/admin/xm.asp
+/utility/convert/index.php 1 http://pro-filr.com/utility/convert/index.php
+/pages/signup.php 2 -
+/config.php 1 -
+/zx.asp 1 http://pro-filr.com/zx.asp
+/email/index.php 1 http://pro-filr.com/crm/studio/modules/EntityRelease/release.php
+/blog/xmlrpc.php 1 -
+/images/swfupload/images/uploadye.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/wp-content/plugins/wpstorecart/readme.txt 1 http://pro-filr.com/wp-content/plugins/wpstorecart/readme.txt
+/plus/mytag_js.phpaid=999 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/backup.zip 1 -
+/email/shell.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/pages/login.php 2 -
+/Templates/test.asp 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/admin/diy.asp 1 http://pro-filr.com/admin/diy.asp
+/Upload/image/shell.asp/crazy5.jpg 3 http://pro-filr.com/Upload/image/shell.asp/crazy5.jpg
+/web.zip 1 -
+/ads.txt 1 -
+/wp-content/plugins/gravityforms/ 1 http://pro-filr.com/wp-content/plugins/gravityforms/
+/blog/wp-content/plugins/easyrotator-for-wordpress/b.php 1 http://pro-filr.com/blog/wp-content/plugins/easyrotator-for-wordpress/b.php
+/dbs.php 1 -
+/laobiao.php 1 http://pro-filr.com/laobiao.php
+/robots.txt 392 -
+/plus/mytag_js.phpaid=9191 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/robot.txt 3 104.238.102.91
+/plus/mp.php 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/pro-filr.com.zip 2 -
+/pages/index.html 2 -
+/dxyylc/md5.aspx 1 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/user/cache.asp 1 http://pro-filr.com/user/cache.asp
+/include/code/mp.php 2 http://www.dmzs2886.com/plugins/weathermap/configs/test404.php
+/sites/default/files/opn-post.php 1 http://pro-filr.com/sites/default/files/opn-post.php
+/wp-register.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 157
+69.158.92.105 355 561 31112702 20180731190108
+65.92.127.126 147 191 18203874 20180718013327
+41.215.246.242 102 271 17750374 20180731211654
+197.242.100.118 70 160 12530022 20180725163428
+69.158.92.108 49 91 8677080 20180705125821
+104.192.74.20 40 40 903708 20180710205928
+198.27.105.224 40 217 25846368 20180718165319
+209.162.247.149 33 45 1296899 20180727161956
+184.154.139.35 31 31 0 20180731104606
+91.213.143.248 27 162 21049947 20180714063641
+197.210.47.9 23 45 7431430 20180731165327
+154.118.20.85 20 45 2769133 20180703030101
+118.24.61.216 19 19 210900 20180713135231
+142.46.3.131 16 19 663147 20180728173911
+52.53.201.78 14 14 127833 20180731181044
+105.112.37.5 14 20 5134265 20180701133613
+158.69.225.34 13 13 293440 20180724150130
+35.233.169.0 12 48 4309014 20180726164313
+35.230.119.231 12 48 4309014 20180726185606
+102.176.247.173 12 62 4255383 20180731191546
+5.32.62.98 12 37 3386702 20180727180640
+62.254.94.234 12 40 3697591 20180726163151
+45.33.74.241 11 11 210419 20180730055851
+199.119.232.210 11 41 2843672 20180709204344
+105.112.33.82 11 32 3542322 20180704191735
+66.249.93.56 1 5 1157009 20180728041649
+51.15.205.214 1 1 4283 20180731055536
+46.101.80.192 1 1 11100 20180717025350
+206.189.39.112 2 2 0 20180703131530
+206.127.220.81 3 10 1234306 20180731050102
+64.74.215.85 1 1 11100 20180715034933
+196.50.4.190 1 1 33868 20180716102121
+46.161.9.60 10 10 114592 20180718223925
+80.82.70.116 1 1 11153 20180731183749
+197.242.115.235 10 10 37145 20180716040546
+35.230.67.219 9 75 4976046 20180718194403
+105.186.240.140 1 1 11153 20180731150043
+81.92.203.113 1 1 23458 20180704100514
+87.200.50.40 2 2 101 20180728041651
+41.190.14.135 6 36 2791684 20180709195725
+91.121.12.106 1 1 11100 20180725031109
+66.102.6.44 0 5 1203192 
+47.30.139.202 3 25 1658682 20180712082903
+104.198.7.159 9 75 4976043 20180710211237
+27.115.124.66 0 6 179203 
+69.58.178.58 4 4 82141 20180703052024
+66.102.6.42 1 4 146077 20180730202118
+184.154.139.50 4 38 5019579 20180714131816
+52.30.131.154 1 1 11099 20180706084310
+122.228.10.51 1 1 11100 20180721101408
+38.145.74.28 1 1 4283 20180726020734
+107.170.96.6 3 3 77724 20180727140803
+184.154.139.49 4 40 5091424 20180725131745
+66.249.93.34 1 8 153849 20180711110646
+184.154.139.4 9 89 11438772 20180731140626
+42.108.25.51 2 8 1268922 20180702081721
+197.184.28.56 5 17 1440621 20180725145510
+132.232.17.124 8 8 62738 20180717021314
+188.240.208.26 1 1 11100 20180720170951
+93.179.68.151 1 1 11099 20180706054928
+35.233.251.184 9 75 4975893 20180705134036
+35.177.108.58 1 1 4283 20180726194615
+51.15.146.39 1 1 11100 20180722222022
+199.7.157.37 10 40 2832573 20180708235454
+62.210.181.15 1 1 0 20180723074011
+138.197.202.197 1 1 11100 20180724141753
+203.187.230.134 4 26 1735149 20180705140958
+105.112.40.122 5 35 2824779 20180707090641
+66.249.93.54 2 4 60666 20180727180639
+47.30.241.28 6 36 2791685 20180712083933
+69.156.100.59 1 1 4283 20180725192016
+199.7.157.79 6 36 2791685 20180713141835
+129.56.41.19 1 1 33868 20180725054824
+184.149.39.134 6 28 1669883 20180717134358
+103.70.146.2 3 25 1658682 20180711055713
+23.236.156.120 3 3 27749 20180728015626
+43.226.74.118 1 1 11100 20180722083922
+46.246.41.193 1 1 11099 20180706142723
+196.50.4.185 1 1 33868 20180725173213
+199.119.232.208 3 3 11254 20180731140559
+128.69.225.212 2 11 1383426 20180727030739
+66.102.6.46 1 5 86968 20180730202117
+94.130.140.243 2 2 22200 20180713154839
+174.0.230.101 4 16 1436338 20180730225324
+52.90.29.252 1 1 11100 20180712145754
+158.46.158.95 1 1 11049 20180705085644
+136.243.154.93 1 1 11100 20180723005224
+64.246.165.180 1 1 11099 20180708044103
+42.108.8.123 2 7 142043 20180702081721
+5.32.62.102 5 10 1174010 20180727085208
+23.106.26.177 1 1 11100 20180724001943
+65.52.5.113 2 2 22200 20180720184606
+45.33.72.115 1 1 4108 20180702175515
+163.172.4.153 1 1 4283 20180729024319
+212.83.177.250 2 2 8566 20180727091047
+35.230.9.167 9 75 4976046 20180717204502
+24.149.5.198 3 25 1703323 20180731112457
+46.188.22.161 2 11 1383426 20180728093512
+209.97.150.56 1 1 4108 20180703220356
+188.247.147.225 2 11 275140 20180711110655
+35.176.62.28 1 1 11100 20180713122713
+66.249.93.39 0 8 281961 
+105.112.35.165 4 32 4175813 20180701133150
+185.38.241.4 3 25 1703323 20180731112459
+65.117.187.20 1 1 4283 20180727152827
+31.186.86.161 2 2 8566 20180729100207
+54.244.44.63 4 13 1317003 20180730040009
+159.203.42.143 2 2 30131 20180727083751
+197.255.175.224 1 1 33868 20180731172405
+54.175.238.43 1 1 11100 20180724222306
+47.106.123.15 1 23 1658581 20180717072734
+138.68.70.13 1 1 11100 20180712152048
+38.145.76.252 1 1 11100 20180720002948
+169.255.125.242 7 34 2714224 20180720151855
+35.230.57.185 9 75 4976046 20180711065309
+125.84.177.173 1 1 11100 20180717023157
+194.63.142.248 1 1 4283 20180727020113
+38.100.21.63 7 11 147509 20180720030938
+35.233.208.119 9 75 4975893 20180705071300
+91.210.144.222 2 2 18737 20180725101946
+223.166.245.37 1 1 11100 20180717035657
+144.138.251.17 1 1 11099 20180706134509
+105.112.45.55 7 7 52089 20180707092625
+159.203.81.93 1 1 33868 20180727092006
+42.108.10.232 1 13 1364998 20180708142618
+66.249.93.58 1 7 227128 20180727173324
+138.68.180.18 1 1 4108 20180701193425
+5.188.136.72 1 1 11100 20180713034628
+112.79.150.57 4 15 1410965 20180704004853
+142.161.132.68 3 25 1658631 20180705140946
+66.249.93.37 0 7 1222771 
+192.99.66.39 3 25 1658682 20180723212446
+138.197.3.23 1 1 0 20180702182544
+184.154.139.51 8 79 10150077 20180728131730
+66.71.248.231 2 24 1658626 20180712071131
+184.154.139.52 6 60 7640235 20180729131515
+216.145.17.190 1 1 4283 20180726071342
+86.110.117.60 1 1 11100 20180718201747
+203.177.166.196 1 1 11100 20180722152550
+193.106.30.99 1 1 11100 20180711162714
+188.166.116.43 1 1 4283 20180725124001
+46.36.39.32 5 5 61453 20180727010631
+94.130.167.98 1 1 11100 20180723005223
+154.113.89.198 2 2 101 20180730202119
+66.249.89.195 1 1 11100 20180724205636
+202.142.64.6 3 25 1658682 20180712130941
+159.89.43.242 1 1 0 20180702184335
+185.25.34.137 2 2 22200 20180723005214
+54.202.28.165 1 1 4283 20180731045214
+220.250.62.196 1 1 11100 20180713141130
+66.207.220.242 6 33 2534384 20180731195343
+34.214.238.128 1 1 4283 20180731045207
+65.49.173.133 4 15 1435182 20180730184409
+5.32.62.54 4 6 72950 20180727135541
+27.115.124.2 1 15 439725 20180717145220
+159.203.196.79 1 1 66624 20180727083413
+42.108.25.136 2 12 293683 20180708142619
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180701 21 63 10552696 5
+20180702 29 73 5392956 10
+20180703 44 72 9174415 7
+20180704 22 73 7664095 7
+20180705 71 328 20803889 12
+20180706 31 55 3781237 9
+20180707 66 194 22037295 8
+20180708 16 77 5773632 6
+20180709 36 109 7634644 6
+20180710 60 141 7184630 6
+20180711 54 232 15750753 12
+20180712 18 123 9061155 8
+20180713 35 93 5967102 10
+20180714 37 93 6477337 5
+20180715 28 46 6744616 4
+20180716 14 23 1353393 5
+20180717 54 206 15982989 11
+20180718 97 354 33795371 10
+20180719 2 11 1271280 2
+20180720 20 60 4177413 8
+20180721 3 12 1282380 3
+20180722 66 133 5008934 9
+20180723 21 59 3700916 8
+20180724 45 75 4222544 10
+20180725 157 326 29365552 17
+20180726 119 246 15631176 11
+20180727 60 134 9791665 25
+20180728 27 48 3360573 9
+20180729 5 14 1290433 5
+20180730 45 117 9313477 10
+20180731 162 376 30354683 23
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 14
+5mn-15mn 11
+30mn-1h 9
+15mn-30mn 9
+1h+ 4
+2mn-5mn 13
+0s-30s 221
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 49
+/controller/app.php 792 19011175 11 96
+/ 263 2262851 186 113
+/account 57 1699757 10 3
+/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 40 2465088 6 6
+/home 32 295399 1 3
+/sitelock_find_13020965.php 31 0 31 31
+/dashboard 30 344061 0 0
+/admin 28 166364 19 1
+/assets/lib/semantic/themes/default/assets/fonts/icons.woff2 18 1294128 0 1
+/cpanel 15 508020 12 12
+/contact 13 150540 0 1
+/index.php 13 144299 3 3
+/emails 12 227316 0 0
+/reports 10 140522 0 0
+/blog 8 62257 0 0
+/cookies 8 188740 0 1
+/privacy 7 464727 0 0
+/upgrade 7 99803 0 0
+/invites 6 83364 0 0
+/forum 6 70687 0 0
+/about 6 52692 0 0
+/agreement 5 227586 0 0
+/forum.php 4 46992 0 1
+/copyright 4 55009 0 0
+/crons/complete.php 4 194 0 0
+/copyright.php 2 27390 0 0
+/sitemap.xml 1 957 0 0
+/views/modals/company.html 1 3223 0 0
+/profile 1 13662 0 0
+/blog/ 1 7637 0 1
+/company 1 7542 0 0
+/agreement.php 2 90804 0 0
+/assets/lib/font-awesome/fonts/fontawesome-webfont.eot 2 141614 0 2
+/assets/lib/semantic/themes/default/assets/fonts/icons.eot 1 76518 0 1
+/assets/lib/bootstrap/css/bootstrap.min.css.map 2 1084388 0 1
+/privacy.php 3 198864 0 0
+/about.php 2 17448 0 0
+/member 2 25262 0 0
+/search.php 2 7238 0 1
+/webmail 1 33873 0 0
+/upgrade.php 2 30676 0 0
+/cookies.php 3 70374 1 1
+/projects 3 45790 0 0
+/crons/upload.php 3 90 0 1
+/search 2 7559 0 0
+/contact.php 3 34536 0 1
+/crons/ 2 2988 1 0
+/groups 1 14256 0 0
+/posts 3 32827 0 0
+END_SIDER
