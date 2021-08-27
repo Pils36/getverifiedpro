@@ -20,7 +20,7 @@ if (!validateLogin()) {
 
 
 $user = 'exbcca_profilr_beta';
-$pass = 'getverifiedpro2021';
+$pass = 'getverifiedpro2021!';
 
 try {
     //connect DB
