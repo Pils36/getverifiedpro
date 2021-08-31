@@ -245,7 +245,7 @@ body::-webkit-scrollbar-thumb:hover {
                 </a>
                 <div>
                     <a class="active item" href="home" style="text-transform: uppercase;">
-     <img src="https://www.pro-filr.com/assets/images/proslogo.png" style="position: relative; ">
+     <img src="https://www.getverifiedpro.com/assets/images/proslogo.png" style="position: relative; ">
       ro-Filr</a>
                 </div>
                 <div class="right item">
