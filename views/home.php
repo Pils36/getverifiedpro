@@ -300,7 +300,8 @@ body::-webkit-scrollbar-thumb:hover {
                 </div>
                 <div class="eight wide right floated column">
                     <div class="ui green loading segment" id="pro_segment" style="min-height: 320px">
-                        <h4 class="ui header">Professionals frequently viewed</h4>
+                        <h4 class="ui header">Classified Business Directory <br> <small>20x More Visibility for your business</small></h4>
+                        
                         <!-- <hr> -->
 
 

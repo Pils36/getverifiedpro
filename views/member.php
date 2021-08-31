@@ -120,7 +120,7 @@ if(isset($_GET['submit'])){
         VERIFIED
 </button>
         
-        else ?>
+        
             <button type="button" class="btn btn-danger" data-toggle="modal" data-target=".bd-example-modal-lg" style="color:#fff; width: 100%; font-size: 13px;">
      
         NOT YET VERIFIED
@@ -249,12 +249,12 @@ $ifConnected = $c->ifConnected($_SESSION['login_id'], $_POST['id']);
 
 // error_reporting(1);
 
-$user = 'profilr_user';
-$pass = 'portFOLIO_2015';
+$user = 'exbcca_profilr_beta';
+$pass = 'getverifiedpro2021!';
 
 try {
     //connect DB
-    $dbh = new PDO('mysql:host=localhost;dbname=profilr_beta', $user, $pass);
+    $dbh = new PDO('mysql:host=localhost;dbname=exbcca_profilr_beta', $user, $pass);
     
 
 } catch (PDOException $e) {

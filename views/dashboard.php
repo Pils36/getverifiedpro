@@ -13,12 +13,17 @@ if (empty($_SESSION['admin_login'])) {
 
 <?php 
 
+// $hostname='localhost';
+// $username='root';
+// $password='';
+// $database='profilr_beta';
 $hostname='localhost';
-$username='profilr_user';
-$password='portFOLIO_2015';
+$username = 'exbcca_profilr_beta';
+$password = 'getverifiedpro2021!';
+$database = 'exbcca_profilr_beta';
 
 try {
-    $dbh = new PDO("mysql:host=$hostname;dbname=profilr_beta",$username,$password);
+    $dbh = new PDO("mysql:host=$hostname;dbname=".$database,$username,$password);
 
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // <== add this line
     // echo 'Connected to Database<br/>';

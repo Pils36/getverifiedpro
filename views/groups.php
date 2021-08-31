@@ -17,11 +17,11 @@ if (!validateLogin()) {
 <?php 
 
 $hostname='localhost';
-$username='profilr_user';
-$password='portFOLIO_2015';
+$username='exbcca_profilr_beta';
+$password='getverifiedpro2021!';
 
 try {
-    $dbh = new PDO("mysql:host=$hostname;dbname=profilr_beta",$username,$password);
+    $dbh = new PDO("mysql:host=$hostname;dbname=exbcca_profilr_beta",$username,$password);
 
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); // <== add this line
     // echo 'Connected to Database<br/>';
