@@ -14,8 +14,8 @@ session_start();
  *  Load the global functions
  * ------------------------------------------------------
  */
- 
- 
+
+
 require_once '../config/config.php';
 error_reporting(E_ERROR);
 
@@ -31,7 +31,7 @@ error_reporting(E_ERROR);
 
 if (COMPOSER_AUTOLOAD === TRUE) {
 	file_exists(ROOT . '/vendor/autoload.php')
-		? require_once(ROOT . '/vendor/autoload.php') 
+		? require_once(ROOT . '/vendor/autoload.php')
 		: exit('Composer Autoload is set to TRUE but vendor/autoload.php was not found.');
 }
 
@@ -103,7 +103,7 @@ $s = new Security();
 
 
 if (!empty($_POST)) {
-	
+
 	if (!isset($_POST["function"])) {
 		$data = $_POST['json'];
 		$_POST = json_decode($data, true);
@@ -111,28 +111,28 @@ if (!empty($_POST)) {
 	if (is_callable($_POST['function'])) {
 		$_POST = $s->xss_clean($_POST);
 
-	// print_r($_POST);
-// 	exit;
-// 	echo "jijojk";
-// 	exit;
+		// print_r($_POST);
+		// 	exit;
+		// 	echo "jijojk";
+		// 	exit;
 		echo $_POST['function']();
 	}
-	
-// 	var_dump($_POST);
-	
+
+	// 	var_dump($_POST);
+
 } elseif (!empty($_GET)) {
 	$_GET = $s->xss_clean($_GET);
 	if (!empty($_GET['code'])) {
-	    echo 1;
-exit;
+		echo 1;
+		exit;
 		$response = linkedinAuth();
 		$response = json_decode($response);
-		
-		if(!empty($_SESSION['import_mode'])){
+
+		if (!empty($_SESSION['import_mode'])) {
 			$_SESSION['oauth_error'] = $response->message;
 			header('location: ../profile');
-		}else{
-			
+		} else {
+
 			if ($response->status !== 'success') {
 				$_SESSION['oauth_error'] = $response->message;
 				header('location: ../account');
@@ -140,18 +140,13 @@ exit;
 				header('location: ../home');
 			}
 		}
-	}elseif (isset($_GET['oauth'])) {
+	} elseif (isset($_GET['oauth'])) {
 		$response = getGmailConnections();
 		$response = json_decode($response);
-		
-	}elseif (!empty($_GET['data_id'])){
+	} elseif (!empty($_GET['data_id'])) {
 		downloadMessage();
 	}
-	
-	
-	
-}elseif (!empty($_FILES['attachment'])){
+} elseif (!empty($_FILES['attachment'])) {
 	// chat file attachment
 	echo uploadFileAttachment();
 }
-

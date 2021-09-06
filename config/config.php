@@ -7,9 +7,9 @@ define('DB_USERNAME', 'exbcca_profilr_beta');
 define('DB_PASSWORD', 'getverifiedpro2021!');
 define('DB_NAME', 'exbcca_profilr_beta');
 
-//  define('DB_USERNAME', 'root');
-//  define('DB_PASSWORD', '');
-//  define('DB_NAME', 'profilr_beta');
+// define('DB_USERNAME', 'root');
+// define('DB_PASSWORD', '');
+// define('DB_NAME', 'profilr_beta');
 
 // define('DB_USERNAME', 'jscgloba_profilr_user');
 // define('DB_PASSWORD', 'portFOLIO_2015');
@@ -35,7 +35,7 @@ define('ROOT',  $_SERVER['DOCUMENT_ROOT']);
 
 define('DOCUMENT_ROOT', ROOT);
 define('COMPOSER_AUTOLOAD', TRUE);
-define('VIEWS', DOCUMENT_ROOT.'/views/');
+define('VIEWS', DOCUMENT_ROOT . '/views/');
 
 define('LINKEDIN_CLIENT_ID', '77g9qzxthk6iob');
 define('LINKEDIN_CLIENT_SECRET', 'XucYpXzrUB0dBqfm');
@@ -50,4 +50,3 @@ define('SECRET_KEY', 'Jimoh2016');
 define('ALGORITHM', 'HS512');
 
 ini_set('max_execution_time', 0);
-

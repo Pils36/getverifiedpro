@@ -9,20 +9,75 @@ home.ready = function(){
             	var strPro = "";
             	var  strPosts = "";
             	var strInf = "";
+				var industry;
+				var corporate_type;
+				var description;
+				var business_name;
+				var country;
+				var website;
             	if(response.status =="success"){
-            		if(response.data.profiles){
-            			//populate recently viewed profiles
-            			$.each(response.data.profiles, function (v, k) {
-            				strPro += "<div class='item'><img class='ui avatar image' alt='' src='assets/resources/pics/"+k.photo+"'><div class='content'><div class='header'><a class='ui blue small member_link' data-id='" + k.login_id + "' data-source='search'>"+k.firstname.toProperCase()+" "+k.lastname.toProperCase()+"</a></div><span style='color:#072902'>"+k.profession+" | "+k.country+"</span></div></div>";
+            		if(response.data.cbd.status != 400){
+
+						if(response.data.cbd.message == "No record"){
+							$("#pro_list").html("<table><thead><tr><th>S/N</th><th>Industry</th><th>Nature</th><th>Description</th><th>Name</th><th>Location</th><th>Website</th></tr></thead><tbody><td colspan='6' align='center'>"+response.data.cbd.message+"</td></tbody></table>");
+						}
+						else{
+							//populate Classified Business Directory
+            			$.each(response.data.cbd.data, function (v, k) {
+
+							if(k.industry != null){
+								industry = k.industry;
+							}
+							else{
+								industry = "-";
+							}
+							if(k.corporate_type != null){
+								corporate_type = k.corporate_type;
+							}
+							else{
+								corporate_type = "-";
+							}
+							if(k.description != null){
+								description = k.description;
+							}
+							else{
+								description = "-";
+							}
+							if(k.business_name != null){
+								business_name = k.business_name;
+							}
+							else{
+								business_name = "-";
+							}
+							if(k.country != null){
+								country = k.country;
+							}
+							else{
+								country = "-";
+							}
+							if(k.website != null){
+								website = "<a href='http://"+k.website+"' target='_blank'>Visit</a>";
+							}
+							else{
+								website = "-";
+							}
+							
+
+            				strPro += "<tr><td>"+(v+1)+"</td><td>"+industry+"</td><td>"+corporate_type+"</td><td>"+description.substring(0, 25)+"</td><td>"+business_name.substring(0, 25)+"</td><td>"+country+"</td><td>"+website+"</td></tr>";
+							
+            				// strPro += "<div class='item'><img class='ui avatar image' alt='' src='assets/resources/pics/"+k.photo+"'><div class='content'><div class='header'><a class='ui blue small member_link' data-id='" + k.login_id + "' data-source='search'>"+k.firstname.toProperCase()+" "+k.lastname.toProperCase()+"</a></div><span style='color:#072902'>"+k.profession+" | "+k.country+"</span></div></div>";
             			});
-            			$("#pro_list").html(strPro);
+            			$("#pro_list").html("<table><thead><tr><th>S/N</th><th>Industry</th><th>Nature</th><th>Description</th><th>Name</th><th>Location</th><th>Website</th></tr></thead><tbody>"+strPro+"</tbody></table>");
             			$("#pro_segment").removeClass("loading");
             			$(".member_link").on("click", function () {
 				            //search.member(this);
 				            $.redirect("member", {id: $(this).data("id"),source:$(this).data("source")}, "post");
 				        });
+						}
+
+            			
             		}else{
-            			//no recently viewed profile
+            			//no Classified Business Directory
             			$("#pro_list").html("<p></p>");
             		}
             		if(response.data.posts){
@@ -45,7 +100,6 @@ home.ready = function(){
             if(response.data.influencers){
             			//populate recently viewed profiles
             			$.each(response.data.influencers, function (v, k) {
-            			    console.log(k);
             				strInf += "<div class='item'><img class='ui avatar image' alt='' src='assets/resources/pics/"+k.photo+"'><div class='content'><div class='header'><a class='ui blue small member_link' data-id='" + k.id + "' data-source='search'>"+k.firstname.toProperCase()+" "+k.lastname.toProperCase()+"</a></div><div style='width: 200px;'><span style='color:#139f5e !important; font-size: 12px'>"+k.company+"</span></div><div ><span style='font-size: 12px; color: #98273d !important'># of imported contacts: "+k.NO+"</span></div></div></div>";
             			});
             			$("#influencer_list").html(strInf);
