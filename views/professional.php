@@ -259,7 +259,7 @@ if(isset($_GET['submit'])){
                  <tr>
                         
                         <td>
-                            <img src=https://www.pro-filr.com/assets/resources/pics/<?php echo $photo ?> align="left" style="width:100px; height: 100px">
+                            <img src=https://getverifiedpro.com/resources/pics/<?php echo $photo ?> align="left" style="width:100px; height: 100px">
                         </td>
                         
                         <td style="text-transform: uppercase; text-align: center">
@@ -285,7 +285,7 @@ if(isset($_GET['submit'])){
                          
                     <!--<li class="navi-list">-->
         <!--                     <div class="img-prof">-->
-        <!--                         <img src=https://www.pro-filr.com/assets/resources/pics/<?php echo $photo ?> align="left">-->
+        <!--                         <img src=https://getverifiedpro.com/resources/pics/<?php echo $photo ?> align="left">-->
         <!--                         </div>-->
         <!--                     <div class="info">-->
         <!--                         <p>Name:<?php echo $firstname .' '.$lastname?> </p>-->

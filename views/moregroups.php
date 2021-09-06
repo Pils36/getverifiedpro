@@ -193,7 +193,7 @@ if(isset($_GET['submit'])){
             
              <tr>
                     <td>
-                        <img src=https://www.pro-filr.com/assets/resources/pics/<?php echo $photo ?> align="left" style="width:50px; height: 50px; border-radius: 100%">
+                        <img src=https://getverifiedpro.com/resources/pics/<?php echo $photo ?> align="left" style="width:50px; height: 50px; border-radius: 100%">
                     </td>
                     
                     <td style="text-transform: capitalize ;text-align: justify">

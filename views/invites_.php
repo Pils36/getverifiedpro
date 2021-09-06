@@ -79,7 +79,7 @@ if (!empty($_POST['fromNav']) && $_POST['fromNav'] == "1") {
                                     <div class="ui column" style="text-align: center;">
                                         <button class="ui vk button" id="csv_btn">Import from CSV</button>
                                         <div class="ui visible message">
-                                            <p>Click <a href="assets/resources/sample.csv" target="_blank"
+                                            <p>Click <a href="../resources/sample.csv" target="_blank"
                                                         style="text-decoration: underline;">here</a> to see sample csv
                                                 file</p>
                                         </div>

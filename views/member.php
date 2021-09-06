@@ -214,7 +214,7 @@ if(isset($_GET['submit'])){
 			 
                   <tr>
                     <td>
-                        <img src=https://www.pro-filr.com/assets/resources/pics/<?php echo $photo ?> align="left" style="width:50px; height: 50px; border-radius: 100%">
+                        <img src=https://getverifiedpro.com/resources/pics/<?php echo $photo ?> align="left" style="width:50px; height: 50px; border-radius: 100%">
                     </td>
                     
                     <td style="text-transform: capitalize ;text-align: justify">
@@ -340,7 +340,7 @@ echo 0;
         <div class="ui four wide column" id="left-column">
             <div class="ui card">
                 <div class="image">
-                    <img id="profile_picture" src="assets/resources/pics/profile-placeholder.png">
+                    <img id="profile_picture" src="../resources/pics/profile-placeholder.png">
                 </div>
                 <div class="content">
                     <a class="header" id="profile_name"></a>
