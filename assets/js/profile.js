@@ -1,19 +1,23 @@
+
 var myProfile = myProfile || {};
 var userProfileData =
     (function () {
         this.onReady = function () {
+
             NProgress.start();
             //fetch user info
             var profileData = {
                 "function": "fetchUserInfo"
             };
             sendRequest.postJSON(profileData, "controller/app.php", function (response) {
+
                 var parse = response;
                 myProfile.educationTemplate(parse);
                 myProfile.certificationTemplate(parse);
                 myProfile.experienceTemplate(parse);
                 myProfile.affiliationTemplate(parse);
                 myProfile.projectTemplate(parse);
+                myProfile.profileTemplate(parse);
                 NProgress.done();
                 myProfile.readyList();
             });
@@ -264,14 +268,18 @@ var userProfileData =
 
             },
 
+
+
             this.profileTemplate = function (parse, dataType="all") {
+
+
                 var data;
                 if (dataType === "single") {
                     data = parse;
                 } else {
                     data = parse.data.profile;
                 }
-                $(".profile_picture").attr("src", "assets/resources/pics/" + data[0].photo);
+                $(".profile_picture").attr("src", "../resources/pics/" + data[0].photo);
                 $("#profile_name").text((data[0].lastname + " " + data[0].firstname).toUpperCase());
                 $("#profile_current_position").text((data[0].profession + " at " + data[0].company).toUpperCase());
 

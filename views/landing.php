@@ -18,7 +18,7 @@ if (!validateLogin()) {
 
 <?php
 
-    require_once './config/dataconfig.php';
+    require './config/dataconfig.php';
 ?>
 
 <?php
@@ -988,12 +988,14 @@ else{
 
         <?php 
 
+        error_reporting(0);
+
 $stmt = $dbh->query("SELECT login_id FROM tbl_subscribe WHERE login_id= '".$login_id."'");
+// print_r($stmt);
 $stmt->execute();
-
-
 $res = $stmt->fetchAll();
 $numRow = $stmt->rowCount();
+
 
 if($numRow == 1){
     $myplanchange = '<div class="changePlan"><button id="plan" class="btn btn-success form-control" style="color:#fff !important">Change Plan</button><div id="subSection"><form method="post" action="'.htmlspecialchars($_SERVER["PHP_SELF"]).'"><div class="input-box"><select id="plans" class="form-control" name="plan"><option value="Annual Plan">Classic Plan -- $100/Annum</option><option value="Monthly Plan">Classic Plan -- $10/Month</option><option value="NULL">Basic Plan -- Free</option></select></div><div id="btn-box"><input type="submit" id="savePlan" class="form-control" name="changeplan" value="Save" style="width: 100% !important" /></div><br></form></div></div>';
@@ -1002,7 +1004,7 @@ else{
     $myplanchange = '<!--Change Plan--><div class="changePlan"><button id="notplan" class="btn btn-success form-control" style="color:#fff !important">Change Plan</button></div>';
 }
 
-echo $myplanchange;
+// echo $myplanchange;
         
         
         ?>

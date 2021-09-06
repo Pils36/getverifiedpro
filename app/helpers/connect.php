@@ -50,7 +50,7 @@ function newConnection(){
             // $to = "bambo.adenuga@pro-filr.com";
             $subject = "Someone just added you to their connection on Pro-filr";
             
-            $message = "<html><head><title>Connection Added</title></head><body><div><img src='https://www.pro-filr.com/assets/images/prologo.png' style='width:100%; height:100px'></div><div style='padding: 10px;'><p>Hi,</p> <p>You have a new connection.</p><p> <span style='font-weight: bold; text-transform: uppercase'>$sender</span> just added you to connection on Pro-filr.<p>Click <a href='https://www.pro-filr.com/invites'>here</a> to view your connections</p></div></body></html>";
+            $message = "<html><head><title>Connection Added</title></head><body><div><img src='https://getverifiedpro..com/assets/images/prologo.png' style='width:100%; height:100px'></div><div style='padding: 10px;'><p>Hi,</p> <p>You have a new connection.</p><p> <span style='font-weight: bold; text-transform: uppercase'>$sender</span> just added you to connection on Pro-filr.<p>Click <a href='https://www.pro-filr.com/invites'>here</a> to view your connections</p></div></body></html>";
             
             // Always set content-type when sending HTML email
             $headers = "MIME-Version: 1.0" . "\r\n";

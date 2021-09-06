@@ -46,7 +46,7 @@ member.ready = function () {
     sendRequest.postJSON(data, "controller/app.php", function (response) {
         var parse = response;
         var profession = "";
-        photo = "assets/resources/pics/" + parse.data.profile[0].photo;
+        photo = "../resources/pics/" + parse.data.profile[0].photo;
         name = (parse.data.profile[0].lastname + " " + parse.data.profile[0].firstname).toUpperCase();
         if (!parse.data.profile[0].profession || parse.data.profile[0].company) {
             profession = ""

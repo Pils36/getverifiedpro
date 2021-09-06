@@ -63,7 +63,7 @@ var sendRequest = sendRequest || {};
 
             if (response.status === 'success') {
                 var parse = response;
-                var photo = "assets/resources/pics/" + parse.data.profile[0].photo;
+                var photo = "../resources/pics/" + parse.data.profile[0].photo;
                 var name = (parse.data.profile[0].lastname + " " + parse.data.profile[0].firstname).toUpperCase();
                 $(".profile_picture").attr("src", photo);
                 var profession = "";

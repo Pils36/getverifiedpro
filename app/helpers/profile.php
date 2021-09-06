@@ -6,6 +6,7 @@ function editProfile()
 
 function fetchUserInfo()
 {
+	
 	$myResponse = new Response();
 	
 	$member = !empty($_SESSION['login_id']) ? $_SESSION['login_id'] : '';
@@ -29,9 +30,12 @@ function fetchUserInfo()
 	$_subscription = getSubscription($member);
 	$_project = fetchProject($member);
 	$_stats = fetchStats($member);
+	
+	
 
-	$c = new Company();
-	$_company = $c->getUserCompany($member);
+	// $c = new Company();
+	// $_company = $c->getUserCompany($member);
+	$_company = getUserCompany($member);
 	
 	$myResponse->status = "success";
 	$myResponse->message = "Operation Successful";
@@ -47,8 +51,23 @@ function fetchUserInfo()
 		"stats" => $_stats,
 	);
 	$myResponse->data = $data;
+
+
 	return json_encode($myResponse);
 }
+
+	function getUserCompany($user_id)
+	{
+		$dbh = Database::getInstance();
+		$sql = "SELECT * FROM tbl_company WHERE login_id = {$user_id}";
+		try {
+			$company = $dbh->query($sql)->fetchAll(PDO::FETCH_ASSOC);
+			return $company;
+		} catch (Exception $ex) {
+			
+			return $ex->getMessage();
+		}
+	}
 
 
 function fetchStats($member){
@@ -228,7 +247,7 @@ $message = '
             <table width="100%">
                 <tr>
                     <td style="font-size: 10px;"><a href="https://pro-filr.com" target="_blank">www.pro-filr.com</a></td>
-                    <td style="font-size: 10px;" align="right">Email not displaying correctly?<br/><a href="htttps://www.pro-filr.com/templates/Complete/Complete.html">View in your browser</a></td>
+                    <td style="font-size: 10px;" align="right">Email not displaying correctly?<br/><a href="htttps://getverifiedpro.com/templates/Complete/Complete.html">View in your browser</a></td>
                 </tr>
             </table>
         </td>

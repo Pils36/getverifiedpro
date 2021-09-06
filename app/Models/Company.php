@@ -17,6 +17,7 @@ class Company
 			$company = $this->dbh->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 			return $company;
 		} catch (Exception $ex) {
+			
 			return $ex->getMessage();
 		}
 	}

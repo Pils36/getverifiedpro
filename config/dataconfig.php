@@ -4,9 +4,9 @@
 // $user = 'root';
 // $pass = '';
 // $database = 'profilr_beta';
-$user = 'exbcca_profilr_beta';
-$pass = 'getverifiedpro2021!';
-$database = 'exbcca_profilr_beta';
+ $user = 'exbcca_profilr_beta';
+ $pass = 'getverifiedpro2021!';
+ $database = 'exbcca_profilr_beta';
 
 try {
     //connect DB

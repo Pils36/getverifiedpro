@@ -17,7 +17,7 @@ var landing = landing || {};
         };
         sendRequest.postJSON(data, "controller/app.php", function (response) {
             
-            console.log(response.data.suggestions);
+            // console.log(response.data.suggestions);
 
             
             if (response.status === "success") {
@@ -62,7 +62,8 @@ var landing = landing || {};
     
     // Show view status
     this.profileview = function(data){
-        // console.log(data);
+
+        console.log(data);
         
         // if(!data.length){
         //     iziToast.show("No connection online!");
@@ -173,7 +174,7 @@ var landing = landing || {};
     
 
         this.suggestionTemplate = function (data) {
-            console.log(data);
+            // console.log(data);
             if (!data.length) {
                 $("#suggestion_list").html(landing.emptyResponse);
                 return;

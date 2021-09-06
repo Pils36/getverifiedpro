@@ -2,6 +2,7 @@
 
 class ProfileView
 {
+  
 	
 	private $dbh;
 	
