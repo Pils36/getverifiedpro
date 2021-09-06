@@ -19,7 +19,9 @@ home.ready = function(){
             		if(response.data.cbd.status != 400){
 
 						if(response.data.cbd.message == "No record"){
-							$("#pro_list").html("<table><thead><tr><th>S/N</th><th>Industry</th><th>Nature</th><th>Description</th><th>Name</th><th>Location</th><th>Website</th></tr></thead><tbody><td colspan='6' align='center'>"+response.data.cbd.message+"</td></tbody></table>");
+							$("#pro_list").html("<table><thead><tr><th>S/N</th><th>Industry</th><th>Nature</th><th>Description</th><th>Name</th><th>Location</th><th>Website</th></tr></thead><tbody><td colspan='7' style='text-align: center; color: red;'>"+response.data.cbd.message+"</td></tbody></table>");
+
+							$("#pro_segment").removeClass("loading");
 						}
 						else{
 							//populate Classified Business Directory
