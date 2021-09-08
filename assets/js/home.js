@@ -10,16 +10,18 @@ home.ready = function(){
             	var  strPosts = "";
             	var strInf = "";
 				var industry;
-				var corporate_type;
+				var nature_of_business;
 				var description;
 				var business_name;
 				var country;
+				var email;
+				var telephone;
 				var website;
             	if(response.status =="success"){
             		if(response.data.cbd.status != 400){
 
 						if(response.data.cbd.message == "No record"){
-							$("#pro_list").html("<table><thead><tr><th>S/N</th><th>Industry</th><th>Nature</th><th>Description</th><th>Name</th><th>Location</th><th>Website</th></tr></thead><tbody><td colspan='7' style='text-align: center; color: red;'>"+response.data.cbd.message+"</td></tbody></table>");
+							$("#pro_list").html("<table><thead><tr><th>S/N</th><th>Industry</th><th>Nature of Business</th><th>Description of Business</th><th>Name of Firm</th><th>Contact Us</th><th>Location</th><th>Website</th></tr></thead><tbody><td colspan='8' style='text-align: center; color: red;'>"+response.data.cbd.message+"</td></tbody></table>");
 
 							$("#pro_segment").removeClass("loading");
 						}
@@ -33,11 +35,11 @@ home.ready = function(){
 							else{
 								industry = "-";
 							}
-							if(k.corporate_type != null){
-								corporate_type = k.corporate_type;
+							if(k.nature_of_business != null){
+								nature_of_business = k.nature_of_business;
 							}
 							else{
-								corporate_type = "-";
+								nature_of_business = "-";
 							}
 							if(k.description != null){
 								description = k.description;
@@ -57,6 +59,18 @@ home.ready = function(){
 							else{
 								country = "-";
 							}
+							if(k.email != null){
+								email = k.email;
+							}
+							else{
+								email = "-";
+							}
+							if(k.telephone != null){
+								telephone = k.telephone;
+							}
+							else{
+								telephone = "-";
+							}
 							if(k.website != null){
 								website = "<a href='http://"+k.website+"' target='_blank'>Visit</a>";
 							}
@@ -65,11 +79,11 @@ home.ready = function(){
 							}
 							
 
-            				strPro += "<tr><td>"+(v+1)+"</td><td>"+industry+"</td><td>"+corporate_type+"</td><td>"+description.substring(0, 25)+"</td><td>"+business_name.substring(0, 25)+"</td><td>"+country+"</td><td>"+website+"</td></tr>";
+            				strPro += "<tr><td>"+(v+1)+"</td><td>"+industry+"</td><td>"+nature_of_business+"</td><td>"+description.substring(0, 200)+"</td><td>"+business_name.substring(0, 40)+"</td><td><b>Email:</b> <a href='mailto:"+email+"'>"+email+"</a> <br> <b>Telephone:</b> <a href='tel:"+telephone+"'>"+telephone+"</a></td><td>"+country+"</td><td>"+website+"</td></tr>";
 							
             				// strPro += "<div class='item'><img class='ui avatar image' alt='' src='assets/resources/pics/"+k.photo+"'><div class='content'><div class='header'><a class='ui blue small member_link' data-id='" + k.login_id + "' data-source='search'>"+k.firstname.toProperCase()+" "+k.lastname.toProperCase()+"</a></div><span style='color:#072902'>"+k.profession+" | "+k.country+"</span></div></div>";
             			});
-            			$("#pro_list").html("<table><thead><tr><th>S/N</th><th>Industry</th><th>Nature</th><th>Description</th><th>Name</th><th>Location</th><th>Website</th></tr></thead><tbody>"+strPro+"</tbody></table>");
+            			$("#pro_list").html("<table><thead><tr><th>S/N</th><th>Industry</th><th>Nature of Business</th><th>Description of Business</th><th>Name of Firm</th><th>Contact Us</th><th>Location</th><th>Website</th></tr></thead><tbody>"+strPro+"</tbody></table>");
             			$("#pro_segment").removeClass("loading");
             			$(".member_link").on("click", function () {
 				            //search.member(this);

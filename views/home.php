@@ -318,7 +318,29 @@
         <div class="ui vertical stripe segment">
             <div class="ui middle aligned stackable grid container">
                 <div class="row">
-                    <div class="seven wide column">
+
+                    <div class="sixteen wide right floated column">
+                        <div class="ui green loading segment" id="pro_segment" style="min-height: 320px">
+                            <h4 class="ui header">Classified Business Directory <br> <small>20x More Visibility for your business</small></h4>
+
+                            <!-- <hr> -->
+
+
+
+                            <div class="ui very relaxed list" id="pro_list" style="height: 200px; overflow-y:auto;"></div>
+
+                            <!--<p>Caterer</p>-->
+                            <!--<p>Designers</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui vertical stripe segment">
+            <div class="ui middle aligned stackable grid container">
+                <div class="row">
+                    <div class="sixteeen wide column">
                         <div class="ui green loading segment" id="post_segment" style="min-height: 320px">
                             <h4 class="ui header">Recently posted Opportunities</h4>
                             <div class="ui very relaxed list" id="post_list"></div>
@@ -333,20 +355,7 @@
                             <!--<hr>-->
                         </div>
                     </div>
-                    <div class="eight wide right floated column">
-                        <div class="ui green loading segment" id="pro_segment" style="min-height: 320px">
-                            <h4 class="ui header">Classified Business Directory <br> <small>20x More Visibility for your business</small></h4>
 
-                            <!-- <hr> -->
-
-
-
-                            <div class="ui very relaxed list" id="pro_list" style="height: 200px; overflow-y:auto;"></div>
-
-                            <!--<p>Caterer</p>-->
-                            <!--<p>Designers</p>-->
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
