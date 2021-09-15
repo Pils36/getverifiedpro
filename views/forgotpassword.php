@@ -474,7 +474,7 @@ header("Location: https://www.pro-filr.com/reset");
                         
 
                 </ul>
-<span><a href="https://www.pro-filr.com/account" style="text-decoration: none; text-align: center">Back</a></span>
+<span><a href="https://www.Getverified Pro.com/account" style="text-decoration: none; text-align: center">Back</a></span>
             </div>
 
             <div class="login100-more" style="background-image: url('assets/images/idea.jpg');">

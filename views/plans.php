@@ -207,7 +207,7 @@ if (!isset($_SESSION['token'])) {
 <!---->
 <!--            </div>-->
 
-<!--        </div><!--//primary-->-->
+<!--        </div>//primary-->
 
     </div><!--//row-->
 </div><!--//masonry-->
