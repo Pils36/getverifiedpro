@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- Site Properties -->
-    <title>Pro-filr | Where ideas meet skills</title>
+    <title>GetVerified Pro | Where ideas meet skills</title>
     <link rel="icon" type="image/png" href="https://www.pro-filr.com/assets/images/proslogo.png">
     <link rel="stylesheet" type="text/css" href="assets/lib/semantic/components/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/lib/semantic/components/site.css">

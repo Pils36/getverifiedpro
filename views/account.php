@@ -12,7 +12,7 @@ if (empty($_SESSION['state'])) {
 <!DOCTYPE html>
 <htmL>
 <head>
-    <title>Pro-filr | Where ideas meet skills</title>
+    <title>GetVerified Pro | Where ideas meet skills</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
@@ -159,7 +159,7 @@ if (empty($_SESSION['state'])) {
                     </li>
 
                 </ul>
-                <span class="text-center"><a href="https://www.pro-filr.com/forgotpassword">Forgot Password?</a></span>
+                <span class="text-center"><a href="forgotpassword">Forgot Password?</a></span>
                 <div class="clearfix"></div>
 
                 <h4 class="text-center">OR</h4>

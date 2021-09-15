@@ -15,19 +15,19 @@ if (empty($_SESSION['state'])) {
 <?php
 
 
+require './config/dataconfig.php';
+// // $user = 'profilr_user';
+// // $pass = 'portFOLIO_2015';
 
-$user = 'profilr_user';
-$pass = 'portFOLIO_2015';
-
-try {
-    //connect DB
-    $dbh = new PDO('mysql:host=localhost;dbname=profilr_beta', $user, $pass);
-    $passkey = $_SESSION['state'];
-} catch (PDOException $e) {
-echo 0;
-    print "Error!: " . $e->getMessage() . "<br/>";
-    die();
-}
+// try {
+//     //connect DB
+//     // $dbh = new PDO('mysql:host=localhost;dbname=profilr_beta', $user, $pass);
+//     $passkey = $_SESSION['state'];
+// } catch (PDOException $e) {
+// echo 0;
+//     print "Error!: " . $e->getMessage() . "<br/>";
+//     die();
+// }
 
 
 ?>
@@ -393,7 +393,7 @@ header("Location: https://www.pro-filr.com/reset");
 <!DOCTYPE html>
 <htmL>
 <head>
-    <title>Pro-filr | Where ideas meet skills</title>
+    <title>GetVerified Pro | Where ideas meet skills</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="mobile-web-app-capable" content="yes">

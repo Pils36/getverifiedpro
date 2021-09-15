@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <htmL>
 <head>
-    <title>Pro-filr | Where ideas meet skills</title>
+    <title>GetVerified Pro | Where ideas meet skills</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
