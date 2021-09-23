@@ -124,7 +124,7 @@ function doGet()
 	$curl = curl_init();
 
 	curl_setopt_array($curl, array(
-		CURLOPT_URL => 'https://paysprint.net/api/v1/classifiedbusinessdirectory',
+		CURLOPT_URL => 'https://paysprint.ca/api/v1/classifiedbusinessdirectory',
 		CURLOPT_RETURNTRANSFER => true,
 		CURLOPT_ENCODING => '',
 		CURLOPT_MAXREDIRS => 10,
